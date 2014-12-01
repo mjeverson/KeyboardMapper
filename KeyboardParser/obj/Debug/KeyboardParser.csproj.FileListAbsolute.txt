@@ -1,0 +1,6 @@
+c:\users\mike.everson\documents\visual studio 2012\Projects\KeyboardParser\KeyboardParser\bin\Debug\KeyboardParser.exe.config
+c:\users\mike.everson\documents\visual studio 2012\Projects\KeyboardParser\KeyboardParser\bin\Debug\KeyboardParser.exe
+c:\users\mike.everson\documents\visual studio 2012\Projects\KeyboardParser\KeyboardParser\bin\Debug\KeyboardParser.pdb
+c:\users\mike.everson\documents\visual studio 2012\Projects\KeyboardParser\KeyboardParser\obj\Debug\KeyboardParser.exe
+c:\users\mike.everson\documents\visual studio 2012\Projects\KeyboardParser\KeyboardParser\obj\Debug\KeyboardParser.pdb
+c:\users\mike.everson\documents\visual studio 2012\Projects\KeyboardParser\KeyboardParser\obj\Debug\KeyboardParser.csprojResolveAssemblyReference.cache

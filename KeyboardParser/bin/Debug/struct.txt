@@ -1,0 +1,2083 @@
+case "Bulgarian":
+self.spaceLabel = "интервал"
+self.returnLabel = "нов ред"
+
+
+for key in ["Я","В","E","Р","T","Ъ","У","И","О","П","Ю"] {
+var keyModel = Key(.Character)
+keyModel.keyCap = key
+keyModel.outputText = key
+
+self.addKey(keyModel, row: 0, page: 0)
+}
+for key in ["A","C","Д","Ф","Г","X","Й","K","Л","Ш","Щ"] {
+var keyModel = Key(.Character)
+keyModel.keyCap = key
+keyModel.outputText = key
+
+self.addKey(keyModel, row: 1, page: 0)
+}
+var keyModel = Key(.Shift)
+keyModel.keyCap = ""
+self.addKey(keyModel, row: 2, page: 0)
+
+for key in ["З","Ь","Ц","Ж","Б","H","M","Ч"] {
+var keyModel = Key(.Character)
+keyModel.keyCap = key
+keyModel.outputText = key
+
+self.addKey(keyModel, row: 2, page: 0)
+}
+var keyModel2 = Key(.Backspace)
+keyModel2.keyCap = ""
+self.addKey(keyModel2, row: 2, page: 0)
+
+case "Catalan":
+self.spaceLabel = "espai"
+self.returnLabel = "retorn"
+
+
+for key in ["Q","W","E","R","T","Y","U","I","O","P"] {
+var keyModel = Key(.Character)
+keyModel.keyCap = key
+keyModel.outputText = key
+
+switch key {
+case "E":
+keyModel.altChars = ["È","É","Ë","Ê","Ę","Ė","Ē"]
+case "U":
+keyModel.altChars = ["Ū","Û","Ù","Ü","Ú"]
+case "I":
+keyModel.altChars = ["Ī","Į","Î","Ì","‎Ï","Í"]
+case "O":
+keyModel.altChars = ["º","Ō","Œ","Ø","Õ","Ô","Ö","Ó","Ò"]
+default: break
+}
+
+
+self.addKey(keyModel, row: 0, page: 0)
+}
+for key in ["A","S","D","F","G","H","J","K","L","C"] {
+var keyModel = Key(.Character)
+keyModel.keyCap = key
+keyModel.outputText = key
+
+switch key {
+case "A":
+keyModel.altChars = ["Å","Ą","Æ","Ā","ª","À","Á","Ä","Â","Ã"]
+case "L":
+keyModel.altChars = ["Ł"]
+default: break
+}
+
+
+self.addKey(keyModel, row: 1, page: 0)
+}
+var keyModel = Key(.Shift)
+keyModel.keyCap = ""
+self.addKey(keyModel, row: 2, page: 0)
+
+for key in ["Z","X","C","V","B","N","M"] {
+var keyModel = Key(.Character)
+keyModel.keyCap = key
+keyModel.outputText = key
+
+switch key {
+case "C":
+keyModel.altChars = ["Č","Ć"]
+case "N":
+keyModel.altChars = ["Ń","Ñ"]
+default: break
+}
+
+
+self.addKey(keyModel, row: 2, page: 0)
+}
+var keyModel2 = Key(.Backspace)
+keyModel2.keyCap = ""
+self.addKey(keyModel2, row: 2, page: 0)
+
+case "Czech (Slobvak)":
+self.spaceLabel = "Mezerník"
+self.returnLabel = "Enter"
+
+
+for key in ["Q","W","E","R","T","Z","U","I","O","P"] {
+var keyModel = Key(.Character)
+keyModel.keyCap = key
+keyModel.outputText = key
+
+switch key {
+case "E":
+keyModel.altChars = ["Ě","É","È","Ê","Ë","Ę","Ė","Ē"]
+case "R":
+keyModel.altChars = ["Ř","Ŕ"]
+case "Z":
+keyModel.altChars = ["Ž","Ź","Ż"]
+case "U":
+keyModel.altChars = ["Ū","Ù","Ü","Û","Ů","Ú"]
+case "I":
+keyModel.altChars = ["Ī","Į","Ì","‎Ï","Î","Í"]
+case "O":
+keyModel.altChars = ["Ō","Ø","Œ","Õ","Ò","Ö","Ô","Ó"]
+default: break
+}
+
+
+self.addKey(keyModel, row: 0, page: 0)
+}
+for key in ["A","S","D","F","G","H","J","K","L","´"] {
+var keyModel = Key(.Character)
+keyModel.keyCap = key
+keyModel.outputText = key
+
+switch key {
+case "A":
+keyModel.altChars = ["Á","À","Ą","Â","Ä","Æ","Ã","Å","Ā"]
+case "S":
+keyModel.altChars = ["Š","ß","Ś"]
+case "L":
+keyModel.altChars = ["Ł"]
+default: break
+}
+
+
+self.addKey(keyModel, row: 1, page: 0)
+}
+var keyModel = Key(.Shift)
+keyModel.keyCap = ""
+self.addKey(keyModel, row: 2, page: 0)
+
+for key in ["Y","X","C","V","B","N","M","ˇ"] {
+var keyModel = Key(.Character)
+keyModel.keyCap = key
+keyModel.outputText = key
+
+switch key {
+case "Y":
+keyModel.altChars = ["Ÿ","Ý"]
+case "C":
+keyModel.altChars = ["Č","Ç","Ć"]
+case "N":
+keyModel.altChars = ["Ń","Ñ","Ň"]
+default: break
+}
+
+
+self.addKey(keyModel, row: 2, page: 0)
+}
+var keyModel2 = Key(.Backspace)
+keyModel2.keyCap = ""
+self.addKey(keyModel2, row: 2, page: 0)
+
+case "Czech (QWERTY)":
+self.spaceLabel = "Mezerník"
+self.returnLabel = "Enter"
+
+
+for key in ["Q","W","E","R","T","Y","U","I","O","P"] {
+var keyModel = Key(.Character)
+keyModel.keyCap = key
+keyModel.outputText = key
+
+switch key {
+case "E":
+keyModel.altChars = ["È","É","Ê","Ë","Ē","Ė","Ę"]
+case "Y":
+keyModel.altChars = ["Ÿ"]
+case "U":
+keyModel.altChars = ["Ū","Ú","Ù","Ü","Û"]
+case "I":
+keyModel.altChars = ["Ì","Į","Ī","Í","‎Ï","Î"]
+case "O":
+keyModel.altChars = ["Õ","Ō","Ø","Œ","Ó","Ò","Ö","Ô"]
+default: break
+}
+
+
+self.addKey(keyModel, row: 0, page: 0)
+}
+for key in ["A","S","D","F","G","H","J","K","L"] {
+var keyModel = Key(.Character)
+keyModel.keyCap = key
+keyModel.outputText = key
+
+switch key {
+case "A":
+keyModel.altChars = ["À","Á","Â","Ä","Æ","Ã","Å","Ā"]
+case "S":
+keyModel.altChars = ["ß","Ś","Š"]
+case "L":
+keyModel.altChars = ["Ł"]
+default: break
+}
+
+
+self.addKey(keyModel, row: 1, page: 0)
+}
+var keyModel = Key(.Shift)
+keyModel.keyCap = ""
+self.addKey(keyModel, row: 2, page: 0)
+
+for key in ["Z","X","C","V","B","N","M"] {
+var keyModel = Key(.Character)
+keyModel.keyCap = key
+keyModel.outputText = key
+
+switch key {
+case "Z":
+keyModel.altChars = ["Ž","Ź","Ż"]
+case "C":
+keyModel.altChars = ["Ç","Ć","Č"]
+case "N":
+keyModel.altChars = ["Ń","Ñ"]
+default: break
+}
+
+
+self.addKey(keyModel, row: 2, page: 0)
+}
+var keyModel2 = Key(.Backspace)
+keyModel2.keyCap = ""
+self.addKey(keyModel2, row: 2, page: 0)
+
+case "Danish":
+self.spaceLabel = "Mellemrum"
+self.returnLabel = "Retur"
+
+
+for key in ["Q","W","E","R","T","Y","U","I","O","P","Å"] {
+var keyModel = Key(.Character)
+keyModel.keyCap = key
+keyModel.outputText = key
+
+switch key {
+case "E":
+keyModel.altChars = ["É","Ë"]
+case "Y":
+keyModel.altChars = ["Ÿ","Ÿ"]
+case "U":
+keyModel.altChars = ["Ū","Ù","Û","Ü","Ú"]
+case "I":
+keyModel.altChars = ["‎Ï","Í"]
+case "O":
+keyModel.altChars = ["Ö","Ō","Œ","Õ","Ò","Ô","Ó"]
+default: break
+}
+
+
+self.addKey(keyModel, row: 0, page: 0)
+}
+for key in ["A","S","D","F","G","H","J","K","L","Æ","Ø"] {
+var keyModel = Key(.Character)
+keyModel.keyCap = key
+keyModel.outputText = key
+
+switch key {
+case "A":
+keyModel.altChars = ["Á","Ä","À","Â","Ã","Ā"]
+case "S":
+keyModel.altChars = ["ß","Ś","Š"]
+case "D":
+keyModel.altChars = ["Đ"]
+case "L":
+keyModel.altChars = ["Ł"]
+case "Æ":
+keyModel.altChars = ["Ä"]
+case "Ø":
+keyModel.altChars = ["Ö"]
+default: break
+}
+
+
+self.addKey(keyModel, row: 1, page: 0)
+}
+var keyModel = Key(.Shift)
+keyModel.keyCap = ""
+self.addKey(keyModel, row: 2, page: 0)
+
+for key in ["Z","X","C","V","B","N","M"] {
+var keyModel = Key(.Character)
+keyModel.keyCap = key
+keyModel.outputText = key
+
+switch key {
+case "Z":
+keyModel.altChars = ["Ž","Ź","Ż"]
+case "N":
+keyModel.altChars = ["Ń","Ñ"]
+default: break
+}
+
+
+self.addKey(keyModel, row: 2, page: 0)
+}
+var keyModel2 = Key(.Backspace)
+keyModel2.keyCap = ""
+self.addKey(keyModel2, row: 2, page: 0)
+
+case "Dutch":
+self.spaceLabel = "spatie"
+self.returnLabel = "return"
+
+
+for key in ["Q","W","E","R","T","Y","U","I","O","P"] {
+var keyModel = Key(.Character)
+keyModel.keyCap = key
+keyModel.outputText = key
+
+switch key {
+case "E":
+keyModel.altChars = ["É","Ë","Ê","È","Ę","Ė","Ē"]
+case "U":
+keyModel.altChars = ["Ū","Ù","Û","Ü","Ú"]
+case "I":
+keyModel.altChars = ["Ī","Į","Î","‎Ï","Í","Ì"]
+case "O":
+keyModel.altChars = ["Ō","Ø","Œ","Õ","Ò","Ô","Ö","Ó"]
+default: break
+}
+
+
+self.addKey(keyModel, row: 0, page: 0)
+}
+for key in ["A","S","D","F","G","H","J","K","L"] {
+var keyModel = Key(.Character)
+keyModel.keyCap = key
+keyModel.outputText = key
+
+switch key {
+case "A":
+keyModel.altChars = ["Á","Ä","Â","À","Æ","Ã","Å","Ā"]
+default: break
+}
+
+
+self.addKey(keyModel, row: 1, page: 0)
+}
+var keyModel = Key(.Shift)
+keyModel.keyCap = ""
+self.addKey(keyModel, row: 2, page: 0)
+
+for key in ["Z","X","C","V","B","N","M"] {
+var keyModel = Key(.Character)
+keyModel.keyCap = key
+keyModel.outputText = key
+
+switch key {
+case "N":
+keyModel.altChars = ["Ń","Ñ"]
+default: break
+}
+
+
+self.addKey(keyModel, row: 2, page: 0)
+}
+var keyModel2 = Key(.Backspace)
+keyModel2.keyCap = ""
+self.addKey(keyModel2, row: 2, page: 0)
+
+case "English":
+self.spaceLabel = "space"
+self.returnLabel = "return"
+
+
+for key in ["Q","W","E","R","T","Y","U","I","O","P"] {
+var keyModel = Key(.Character)
+keyModel.keyCap = key
+keyModel.outputText = key
+
+switch key {
+case "E":
+keyModel.altChars = ["È","É","Ê","Ë","Ē","Ė","Ę"]
+case "Y":
+keyModel.altChars = ["Ÿ"]
+case "U":
+keyModel.altChars = ["Ū","Ú","Ù","Ü","Û"]
+case "I":
+keyModel.altChars = ["Ì","Į","Ī","Í","‎Ï","Î"]
+case "O":
+keyModel.altChars = ["Õ","Ō","Ø","Œ","Ó","Ò","Ö","Ô"]
+default: break
+}
+
+
+self.addKey(keyModel, row: 0, page: 0)
+}
+for key in ["A","S","D","F","G","H","J","K","L"] {
+var keyModel = Key(.Character)
+keyModel.keyCap = key
+keyModel.outputText = key
+
+switch key {
+case "A":
+keyModel.altChars = ["À","Á","Â","Ä","Æ","Ã","Å","Ā"]
+case "S":
+keyModel.altChars = ["ß","Ś","Š"]
+case "L":
+keyModel.altChars = ["Ł"]
+default: break
+}
+
+
+self.addKey(keyModel, row: 1, page: 0)
+}
+var keyModel = Key(.Shift)
+keyModel.keyCap = ""
+self.addKey(keyModel, row: 2, page: 0)
+
+for key in ["Z","X","C","V","B","N","M"] {
+var keyModel = Key(.Character)
+keyModel.keyCap = key
+keyModel.outputText = key
+
+switch key {
+case "Z":
+keyModel.altChars = ["Ž","Ź","Ż"]
+case "C":
+keyModel.altChars = ["Ç","Ć","Č"]
+case "N":
+keyModel.altChars = ["Ń","Ň"]
+default: break
+}
+
+
+self.addKey(keyModel, row: 2, page: 0)
+}
+var keyModel2 = Key(.Backspace)
+keyModel2.keyCap = ""
+self.addKey(keyModel2, row: 2, page: 0)
+
+case "Estonian":
+self.spaceLabel = "Tühik"
+self.returnLabel = "Sisestus"
+
+
+for key in ["Q","W","E","R","T","Y","U","I","O","P"] {
+var keyModel = Key(.Character)
+keyModel.keyCap = key
+keyModel.outputText = key
+
+switch key {
+case "U":
+keyModel.altChars = ["Ú","Û","Ü","Ù","Ū"]
+case "I":
+keyModel.altChars = ["Ī","Į","Î","‎Ï","Í","Ì"]
+case "O":
+keyModel.altChars = ["Ō","Ø","Œ","Ó","Ò","Ô","Ö","Õ"]
+default: break
+}
+
+
+self.addKey(keyModel, row: 0, page: 0)
+}
+for key in ["A","S","D","F","G","H","J","K","L"] {
+var keyModel = Key(.Character)
+keyModel.keyCap = key
+keyModel.outputText = key
+
+switch key {
+case "A":
+keyModel.altChars = ["Ä","À","Á","Â","Æ","Ã","Å","Ā"]
+case "S":
+keyModel.altChars = ["Š","ß","Ś"]
+default: break
+}
+
+
+self.addKey(keyModel, row: 1, page: 0)
+}
+var keyModel = Key(.Shift)
+keyModel.keyCap = ""
+self.addKey(keyModel, row: 2, page: 0)
+
+for key in ["Z","X","C","V","B","N","M"] {
+var keyModel = Key(.Character)
+keyModel.keyCap = key
+keyModel.outputText = key
+
+switch key {
+case "Z":
+keyModel.altChars = ["Ž","Ź","Ż"]
+default: break
+}
+
+
+self.addKey(keyModel, row: 2, page: 0)
+}
+var keyModel2 = Key(.Backspace)
+keyModel2.keyCap = ""
+self.addKey(keyModel2, row: 2, page: 0)
+
+case "Finnish":
+self.spaceLabel = "väli"
+self.returnLabel = "rivinvaihto"
+
+
+for key in ["Q","W","E","R","T","Y","U","I","O","P","Å"] {
+var keyModel = Key(.Character)
+keyModel.keyCap = key
+keyModel.outputText = key
+
+switch key {
+case "E":
+keyModel.altChars = ["É","È"]
+case "T":
+keyModel.altChars = ["Ŧ"]
+case "U":
+keyModel.altChars = ["Ü"]
+case "I":
+keyModel.altChars = ["Í"]
+case "O":
+keyModel.altChars = ["Ō","Œ","Õ","Ó","Ò","Ô","Ø"]
+default: break
+}
+
+
+self.addKey(keyModel, row: 0, page: 0)
+}
+for key in ["A","S","D","F","G","H","J","K","L","Ö","Ä"] {
+var keyModel = Key(.Character)
+keyModel.keyCap = key
+keyModel.outputText = key
+
+switch key {
+case "A":
+keyModel.altChars = ["Æ","À","Á","Â","Ã","Ā"]
+case "S":
+keyModel.altChars = ["Š","Ś"]
+case "D":
+keyModel.altChars = ["Đ"]
+case "Ö":
+keyModel.altChars = ["Ø"]
+case "Ä":
+keyModel.altChars = ["Æ"]
+default: break
+}
+
+
+self.addKey(keyModel, row: 1, page: 0)
+}
+var keyModel = Key(.Shift)
+keyModel.keyCap = ""
+self.addKey(keyModel, row: 2, page: 0)
+
+for key in ["Z","X","C","V","B","N","M"] {
+var keyModel = Key(.Character)
+keyModel.keyCap = key
+keyModel.outputText = key
+
+switch key {
+case "Z":
+keyModel.altChars = ["Ž","Ź","Ż"]
+case "C":
+keyModel.altChars = ["Ç"]
+case "N":
+keyModel.altChars = ["Ñ","Ŋ"]
+default: break
+}
+
+
+self.addKey(keyModel, row: 2, page: 0)
+}
+var keyModel2 = Key(.Backspace)
+keyModel2.keyCap = ""
+self.addKey(keyModel2, row: 2, page: 0)
+
+case "French (QWERTY)":
+self.spaceLabel = "ESPACE"
+self.returnLabel = "RETOUR"
+
+
+for key in ["Q","W","E","R","T","Y","U","I","O","P"] {
+var keyModel = Key(.Character)
+keyModel.keyCap = key
+keyModel.outputText = key
+
+switch key {
+case "E":
+keyModel.altChars = ["È","É","Ê","Ë","Ę","Ė","Ē"]
+case "Y":
+keyModel.altChars = ["Ÿ"]
+case "U":
+keyModel.altChars = ["Ū","Ú","Ü","Ù","Û"]
+case "I":
+keyModel.altChars = ["Ī","Į","Í","Ì","‎Ï","Î"]
+case "O":
+keyModel.altChars = ["Ō","Ø","Õ","Ó","Ò","Ö","Œ","Ô"]
+default: break
+}
+
+
+self.addKey(keyModel, row: 0, page: 0)
+}
+for key in ["A","S","D","F","G","H","J","K","L"] {
+var keyModel = Key(.Character)
+keyModel.keyCap = key
+keyModel.outputText = key
+
+switch key {
+case "A":
+keyModel.altChars = ["À","Â","Æ","Á","Ä","Ã","Å","Ā"]
+case "L":
+keyModel.altChars = ["Ł"]
+default: break
+}
+
+
+self.addKey(keyModel, row: 1, page: 0)
+}
+var keyModel = Key(.Shift)
+keyModel.keyCap = ""
+self.addKey(keyModel, row: 2, page: 0)
+
+for key in ["Z","X","C","V","B","N","M"] {
+var keyModel = Key(.Character)
+keyModel.keyCap = key
+keyModel.outputText = key
+
+switch key {
+case "Z":
+keyModel.altChars = ["Ž","Ź","Ż"]
+case "C":
+keyModel.altChars = ["Ç","Ć","Č"]
+case "N":
+keyModel.altChars = ["Ń","Ñ"]
+default: break
+}
+
+
+self.addKey(keyModel, row: 2, page: 0)
+}
+var keyModel2 = Key(.Backspace)
+keyModel2.keyCap = ""
+self.addKey(keyModel2, row: 2, page: 0)
+
+case "French (AZERTY)":
+self.spaceLabel = "ESPACE"
+self.returnLabel = "RETOUR"
+
+
+for key in ["A","Z","E","R","T","Y","U","I","O","P"] {
+var keyModel = Key(.Character)
+keyModel.keyCap = key
+keyModel.outputText = key
+
+switch key {
+case "A":
+keyModel.altChars = ["À","Â","Æ","Á","Ä","Ã","Å","Ā"]
+case "E":
+keyModel.altChars = ["È","É","Ê","Ë","Ę","Ė","Ē"]
+case "Y":
+keyModel.altChars = ["Ÿ"]
+case "U":
+keyModel.altChars = ["Ū","Ú","Ü","Ù","Û"]
+case "I":
+keyModel.altChars = ["Ī","Į","Í","Ì","‎Ï","Î"]
+case "O":
+keyModel.altChars = ["Ō","Ø","Õ","Ó","Ò","Ö","Œ","Ô"]
+default: break
+}
+
+
+self.addKey(keyModel, row: 0, page: 0)
+}
+for key in ["Q","S","D","F","G","H","J","K","L","M"] {
+var keyModel = Key(.Character)
+keyModel.keyCap = key
+keyModel.outputText = key
+
+self.addKey(keyModel, row: 1, page: 0)
+}
+var keyModel = Key(.Shift)
+keyModel.keyCap = ""
+self.addKey(keyModel, row: 2, page: 0)
+
+for key in ["W","X","C","V","B","N","´"] {
+var keyModel = Key(.Character)
+keyModel.keyCap = key
+keyModel.outputText = key
+
+switch key {
+case "C":
+keyModel.altChars = ["Ç","Ć","Č"]
+case "N":
+keyModel.altChars = ["Ń","Ñ"]
+case "´":
+keyModel.altChars = ["¨"," ̑","`"]
+default: break
+}
+
+
+self.addKey(keyModel, row: 2, page: 0)
+}
+var keyModel2 = Key(.Backspace)
+keyModel2.keyCap = ""
+self.addKey(keyModel2, row: 2, page: 0)
+
+case "German":
+self.spaceLabel = "Leerzeichen"
+self.returnLabel = "Return"
+
+
+for key in ["Q","W","E","R","T","Z","U","I","O","P","Ü"] {
+var keyModel = Key(.Character)
+keyModel.keyCap = key
+keyModel.outputText = key
+
+switch key {
+case "E":
+keyModel.altChars = ["É","È","Ê","Ë","Ė"]
+case "U":
+keyModel.altChars = ["Ū","Ú","Ù","Û"]
+case "I":
+keyModel.altChars = ["Ì","Ī","Í","‎Ï","Î"]
+case "O":
+keyModel.altChars = ["Ō","Ø","Œ","Õ","Ó","Ò","Ô"]
+default: break
+}
+
+
+self.addKey(keyModel, row: 0, page: 0)
+}
+for key in ["A","S","D","F","G","H","J","K","L","Ö","Ä"] {
+var keyModel = Key(.Character)
+keyModel.keyCap = key
+keyModel.outputText = key
+
+switch key {
+case "A":
+keyModel.altChars = ["À","Á","Â","Æ","Ã","Å","Ā"]
+case "S":
+keyModel.altChars = ["ß","Ś","Š"]
+default: break
+}
+
+
+self.addKey(keyModel, row: 1, page: 0)
+}
+var keyModel = Key(.Shift)
+keyModel.keyCap = ""
+self.addKey(keyModel, row: 2, page: 0)
+
+for key in ["Y","X","C","V","B","N","M"] {
+var keyModel = Key(.Character)
+keyModel.keyCap = key
+keyModel.outputText = key
+
+switch key {
+case "Y":
+keyModel.altChars = ["Ÿ"]
+case "C":
+keyModel.altChars = ["Ç","Ć","Č"]
+case "N":
+keyModel.altChars = ["Ń","Ñ"]
+default: break
+}
+
+
+self.addKey(keyModel, row: 2, page: 0)
+}
+var keyModel2 = Key(.Backspace)
+keyModel2.keyCap = ""
+self.addKey(keyModel2, row: 2, page: 0)
+
+case "Greek":
+self.spaceLabel = "διαστήματ"
+self.returnLabel = "απόδοση"
+
+
+for key in ["Ε","Ρ","Τ","Υ","Θ","Ι","Ο","Π","´"] {
+var keyModel = Key(.Character)
+keyModel.keyCap = key
+keyModel.outputText = key
+
+switch key {
+case "Ε":
+keyModel.altChars = ["Έ"]
+case "Υ":
+keyModel.altChars = ["Ύ","Ϋ","Ϋ́"]
+case "Ι":
+keyModel.altChars = ["Ί","Ϊ","Ϊ́"]
+case "Ο":
+keyModel.altChars = ["Ό"]
+default: break
+}
+
+
+self.addKey(keyModel, row: 0, page: 0)
+}
+for key in ["Α","Σ","Δ","Φ","Γ","Η","Ξ","Κ","Λ"] {
+var keyModel = Key(.Character)
+keyModel.keyCap = key
+keyModel.outputText = key
+
+switch key {
+case "Α":
+keyModel.altChars = ["Ά"]
+case "Σ":
+keyModel.altChars = ["Σ"]
+case "Η":
+keyModel.altChars = ["Ή"]
+default: break
+}
+
+
+self.addKey(keyModel, row: 1, page: 0)
+}
+var keyModel = Key(.Shift)
+keyModel.keyCap = ""
+self.addKey(keyModel, row: 2, page: 0)
+
+for key in ["Ζ","Χ","Ψ","Ω","Β","Ν","Μ"] {
+var keyModel = Key(.Character)
+keyModel.keyCap = key
+keyModel.outputText = key
+
+switch key {
+case "Ω":
+keyModel.altChars = ["Ώ"]
+default: break
+}
+
+
+self.addKey(keyModel, row: 2, page: 0)
+}
+var keyModel2 = Key(.Backspace)
+keyModel2.keyCap = ""
+self.addKey(keyModel2, row: 2, page: 0)
+
+case "Hungarian":
+self.spaceLabel = "Szóköz"
+self.returnLabel = "Return"
+
+
+for key in ["Q","W","E","R","T","Z","U","I","O","P"] {
+var keyModel = Key(.Character)
+keyModel.keyCap = key
+keyModel.outputText = key
+
+switch key {
+case "E":
+keyModel.altChars = ["É","È","Ê","Ë","Ę","Ė","Ē"]
+case "U":
+keyModel.altChars = ["Ū","Ù","Û","Ű","Ü","Ú"]
+case "I":
+keyModel.altChars = ["Ī","Į","Ì","‎Ï","Î","Í"]
+case "O":
+keyModel.altChars = ["Ō","Ø","Œ","Õ","Ò","Ô","Ő","Ö","Ó"]
+default: break
+}
+
+
+self.addKey(keyModel, row: 0, page: 0)
+}
+for key in ["A","S","D","F","G","H","J","K","L"] {
+var keyModel = Key(.Character)
+keyModel.keyCap = key
+keyModel.outputText = key
+
+switch key {
+case "A":
+keyModel.altChars = ["Á","À","Â","Ä","Æ","Ã","Å","Ā"]
+default: break
+}
+
+
+self.addKey(keyModel, row: 1, page: 0)
+}
+var keyModel = Key(.Shift)
+keyModel.keyCap = ""
+self.addKey(keyModel, row: 2, page: 0)
+
+for key in ["Y","X","C","V","B","N","M"] {
+var keyModel = Key(.Character)
+keyModel.keyCap = key
+keyModel.outputText = key
+
+self.addKey(keyModel, row: 2, page: 0)
+}
+var keyModel2 = Key(.Backspace)
+keyModel2.keyCap = ""
+self.addKey(keyModel2, row: 2, page: 0)
+
+case "Icelandic":
+self.spaceLabel = "Bil"
+self.returnLabel = "Venda"
+
+
+for key in ["Q","W","E","R","T","Y","U","I","O","P","Đ"] {
+var keyModel = Key(.Character)
+keyModel.keyCap = key
+keyModel.outputText = key
+
+switch key {
+case "E":
+keyModel.altChars = ["É","È","Ê","Ë","Ę","Ė","Ē"]
+case "Y":
+keyModel.altChars = ["Ý","Ÿ"]
+case "U":
+keyModel.altChars = ["Ū","Ù","Ü","Û","Ú"]
+case "I":
+keyModel.altChars = ["Ī","Į","Ì","‎Ï","Î","Í"]
+case "O":
+keyModel.altChars = ["Ō","Ø","Œ","Õ","Ò","Ô","Ó"]
+default: break
+}
+
+
+self.addKey(keyModel, row: 0, page: 0)
+}
+for key in ["A","S","D","F","G","H","J","K","L","Æ","Ö"] {
+var keyModel = Key(.Character)
+keyModel.keyCap = key
+keyModel.outputText = key
+
+switch key {
+case "A":
+keyModel.altChars = ["Á","À","Â","Ä","Ã","Å","Ā"]
+default: break
+}
+
+
+self.addKey(keyModel, row: 1, page: 0)
+}
+var keyModel = Key(.Shift)
+keyModel.keyCap = ""
+self.addKey(keyModel, row: 2, page: 0)
+
+for key in ["Z","X","C","V","B","N","M","Þ"] {
+var keyModel = Key(.Character)
+keyModel.keyCap = key
+keyModel.outputText = key
+
+self.addKey(keyModel, row: 2, page: 0)
+}
+var keyModel2 = Key(.Backspace)
+keyModel2.keyCap = ""
+self.addKey(keyModel2, row: 2, page: 0)
+
+case "Indonesian":
+self.spaceLabel = "Spasi"
+self.returnLabel = "Kembali"
+
+
+for key in ["Q","W","E","R","T","Y","U","I","O","P"] {
+var keyModel = Key(.Character)
+keyModel.keyCap = key
+keyModel.outputText = key
+
+self.addKey(keyModel, row: 0, page: 0)
+}
+for key in ["A","S","D","F","G","H","J","K","L"] {
+var keyModel = Key(.Character)
+keyModel.keyCap = key
+keyModel.outputText = key
+
+self.addKey(keyModel, row: 1, page: 0)
+}
+var keyModel = Key(.Shift)
+keyModel.keyCap = ""
+self.addKey(keyModel, row: 2, page: 0)
+
+for key in ["Z","X","C","V","B","N","M"] {
+var keyModel = Key(.Character)
+keyModel.keyCap = key
+keyModel.outputText = key
+
+self.addKey(keyModel, row: 2, page: 0)
+}
+var keyModel2 = Key(.Backspace)
+keyModel2.keyCap = ""
+self.addKey(keyModel2, row: 2, page: 0)
+
+case "Italian":
+self.spaceLabel = "spazio"
+self.returnLabel = "invio"
+
+
+for key in ["Q","W","E","R","T","Y","U","I","O","P"] {
+var keyModel = Key(.Character)
+keyModel.keyCap = key
+keyModel.outputText = key
+
+switch key {
+case "E":
+keyModel.altChars = ["È","É","Ê","Ë","Ę","Ė","Ē"]
+case "U":
+keyModel.altChars = ["Ū","Ü","Û","Ú","Ù"]
+case "I":
+keyModel.altChars = ["Ī","Į","‎Ï","Î","Í","Ì"]
+case "O":
+keyModel.altChars = ["º","Ō","Ø","Œ","Õ","Ö","Ô","Ó","Ò"]
+default: break
+}
+
+
+self.addKey(keyModel, row: 0, page: 0)
+}
+for key in ["A","S","D","F","G","H","J","K","L"] {
+var keyModel = Key(.Character)
+keyModel.keyCap = key
+keyModel.outputText = key
+
+switch key {
+case "A":
+keyModel.altChars = ["À","Á","Â","Ä","Æ","Ã","Å","Ā","ª"]
+case "S":
+keyModel.altChars = ["ß","Ś","Š"]
+default: break
+}
+
+
+self.addKey(keyModel, row: 1, page: 0)
+}
+var keyModel = Key(.Shift)
+keyModel.keyCap = ""
+self.addKey(keyModel, row: 2, page: 0)
+
+for key in ["Z","X","C","V","B","N","M"] {
+var keyModel = Key(.Character)
+keyModel.keyCap = key
+keyModel.outputText = key
+
+switch key {
+case "C":
+keyModel.altChars = ["Ç","Ć","Č"]
+default: break
+}
+
+
+self.addKey(keyModel, row: 2, page: 0)
+}
+var keyModel2 = Key(.Backspace)
+keyModel2.keyCap = ""
+self.addKey(keyModel2, row: 2, page: 0)
+
+case "Korean":
+self.spaceLabel = "간격"
+self.returnLabel = "다음문장"
+
+
+for key in ["ㅂ","ㅈ","ㄷ","ㄱ","ㅅ","ㅛ","ㅕ","ㅑ","ㅐ","ㅔ"] {
+var keyModel = Key(.Character)
+keyModel.keyCap = key
+keyModel.outputText = key
+
+switch key {
+case "ㅂ":
+keyModel.altChars = ["ㅃ"]
+case "ㅈ":
+keyModel.altChars = ["ㅉ"]
+case "ㄷ":
+keyModel.altChars = ["ㄸ"]
+case "ㄱ":
+keyModel.altChars = ["ㄲ"]
+case "ㅅ":
+keyModel.altChars = ["쑈"]
+case "ㅐ":
+keyModel.altChars = ["ㅒ"]
+case "ㅔ":
+keyModel.altChars = ["ㅖ"]
+default: break
+}
+
+
+self.addKey(keyModel, row: 0, page: 0)
+}
+for key in ["ㅁ","ㄴ","ㅇ","ㄹ","ㅎ","ㅗ","ㅓ","ㅏ","ㅣ"] {
+var keyModel = Key(.Character)
+keyModel.keyCap = key
+keyModel.outputText = key
+
+self.addKey(keyModel, row: 1, page: 0)
+}
+var keyModel = Key(.Shift)
+keyModel.keyCap = ""
+self.addKey(keyModel, row: 2, page: 0)
+
+for key in ["ㅋ","ㅌ","ㅊ","ㅍ","ㅠ","ㅜ","ㅡ"] {
+var keyModel = Key(.Character)
+keyModel.keyCap = key
+keyModel.outputText = key
+
+self.addKey(keyModel, row: 2, page: 0)
+}
+var keyModel2 = Key(.Backspace)
+keyModel2.keyCap = ""
+self.addKey(keyModel2, row: 2, page: 0)
+
+case "Latvian":
+self.spaceLabel = "Atstarpe"
+self.returnLabel = "levadīt"
+
+
+for key in ["Q","W","E","R","T","Y","U","I","O","P"] {
+var keyModel = Key(.Character)
+keyModel.keyCap = key
+keyModel.outputText = key
+
+switch key {
+case "E":
+keyModel.altChars = ["Ē","È","É","Ê","Ë","Ę","Ė"]
+case "R":
+keyModel.altChars = ["Ŗ"]
+case "U":
+keyModel.altChars = ["Ú","Ù","Ü","Û","Ū"]
+case "I":
+keyModel.altChars = ["Į","Í","Ì","‎Ï","Î","Ī"]
+default: break
+}
+
+
+self.addKey(keyModel, row: 0, page: 0)
+}
+for key in ["A","S","D","F","G","H","J","K","L"] {
+var keyModel = Key(.Character)
+keyModel.keyCap = key
+keyModel.outputText = key
+
+switch key {
+case "A":
+keyModel.altChars = ["Ā","À","Á","Â","Ä","Æ","Ã","Å"]
+case "S":
+keyModel.altChars = ["Š","ß","Ś"]
+case "G":
+keyModel.altChars = ["Ģ"]
+case "K":
+keyModel.altChars = ["Ķ"]
+case "L":
+keyModel.altChars = ["Ł","Ļ"]
+default: break
+}
+
+
+self.addKey(keyModel, row: 1, page: 0)
+}
+var keyModel = Key(.Shift)
+keyModel.keyCap = ""
+self.addKey(keyModel, row: 2, page: 0)
+
+for key in ["Z","X","C","V","B","N","M"] {
+var keyModel = Key(.Character)
+keyModel.keyCap = key
+keyModel.outputText = key
+
+switch key {
+case "Z":
+keyModel.altChars = ["Ž","Ź","Ż"]
+case "C":
+keyModel.altChars = ["Ć","Ç","Č"]
+case "N":
+keyModel.altChars = ["Ń","Ñ","Ņ"]
+default: break
+}
+
+
+self.addKey(keyModel, row: 2, page: 0)
+}
+var keyModel2 = Key(.Backspace)
+keyModel2.keyCap = ""
+self.addKey(keyModel2, row: 2, page: 0)
+
+case "Lithuanian":
+self.spaceLabel = "Tarpas"
+self.returnLabel = "Vykdyti"
+
+
+for key in ["Q","W","E","R","T","Y","U","I","O","P"] {
+var keyModel = Key(.Character)
+keyModel.keyCap = key
+keyModel.outputText = key
+
+switch key {
+case "E":
+keyModel.altChars = ["Ė","Ę","È","É","Ê","Ë","Ē"]
+case "U":
+keyModel.altChars = ["Ú","Ù","Ü","Û","Ū","Ų"]
+case "I":
+keyModel.altChars = ["Ī","Í","Ì","‎Ï","Î","Į"]
+default: break
+}
+
+
+self.addKey(keyModel, row: 0, page: 0)
+}
+for key in ["A","S","D","F","G","H","J","K","L"] {
+var keyModel = Key(.Character)
+keyModel.keyCap = key
+keyModel.outputText = key
+
+switch key {
+case "A":
+keyModel.altChars = ["Ą","À","Á","Â","Ä","Æ","Ã","Å","Ā"]
+case "S":
+keyModel.altChars = ["Š","ß","Ś"]
+default: break
+}
+
+
+self.addKey(keyModel, row: 1, page: 0)
+}
+var keyModel = Key(.Shift)
+keyModel.keyCap = ""
+self.addKey(keyModel, row: 2, page: 0)
+
+for key in ["Z","X","C","V","B","N","M"] {
+var keyModel = Key(.Character)
+keyModel.keyCap = key
+keyModel.outputText = key
+
+switch key {
+case "Z":
+keyModel.altChars = ["Ž","Ź","Ż"]
+case "C":
+keyModel.altChars = ["Ć","Ç","Č"]
+default: break
+}
+
+
+self.addKey(keyModel, row: 2, page: 0)
+}
+var keyModel2 = Key(.Backspace)
+keyModel2.keyCap = ""
+self.addKey(keyModel2, row: 2, page: 0)
+
+case "Malay":
+self.spaceLabel = "Space"
+self.returnLabel = "Kembali"
+
+
+for key in ["Q","W","E","R","T","Y","U","I","O","P"] {
+var keyModel = Key(.Character)
+keyModel.keyCap = key
+keyModel.outputText = key
+
+self.addKey(keyModel, row: 0, page: 0)
+}
+for key in ["A","S","D","F","G","H","J","K","L"] {
+var keyModel = Key(.Character)
+keyModel.keyCap = key
+keyModel.outputText = key
+
+self.addKey(keyModel, row: 1, page: 0)
+}
+var keyModel = Key(.Shift)
+keyModel.keyCap = ""
+self.addKey(keyModel, row: 2, page: 0)
+
+for key in ["Z","X","C","V","B","N","M"] {
+var keyModel = Key(.Character)
+keyModel.keyCap = key
+keyModel.outputText = key
+
+self.addKey(keyModel, row: 2, page: 0)
+}
+var keyModel2 = Key(.Backspace)
+keyModel2.keyCap = ""
+self.addKey(keyModel2, row: 2, page: 0)
+
+case "Norwegian":
+self.spaceLabel = "mellomrom"
+self.returnLabel = "retur"
+
+
+for key in ["Q","W","E","R","T","Y","U","I","O","P","Å"] {
+var keyModel = Key(.Character)
+keyModel.keyCap = key
+keyModel.outputText = key
+
+switch key {
+case "E":
+keyModel.altChars = ["Ë","È","É","Ê","Ę","Ė","Ē"]
+case "U":
+keyModel.altChars = ["Ū","Ú","Ù","Û","Ü"]
+case "O":
+keyModel.altChars = ["Ō","Œ","Õ","Ö","Ó","Ò","Ô"]
+default: break
+}
+
+
+self.addKey(keyModel, row: 0, page: 0)
+}
+for key in ["A","S","D","F","G","H","J","K","L","Ø","Æ"] {
+var keyModel = Key(.Character)
+keyModel.keyCap = key
+keyModel.outputText = key
+
+switch key {
+case "A":
+keyModel.altChars = ["À","Ä","Á","Â","Ã","Ā"]
+case "Ø":
+keyModel.altChars = ["Ö"]
+case "Æ":
+keyModel.altChars = ["Ä"]
+default: break
+}
+
+
+self.addKey(keyModel, row: 1, page: 0)
+}
+var keyModel = Key(.Shift)
+keyModel.keyCap = ""
+self.addKey(keyModel, row: 2, page: 0)
+
+for key in ["Z","X","C","V","B","N","M"] {
+var keyModel = Key(.Character)
+keyModel.keyCap = key
+keyModel.outputText = key
+
+self.addKey(keyModel, row: 2, page: 0)
+}
+var keyModel2 = Key(.Backspace)
+keyModel2.keyCap = ""
+self.addKey(keyModel2, row: 2, page: 0)
+
+case "Polish":
+self.spaceLabel = "spacja"
+self.returnLabel = "return"
+
+
+for key in ["Q","W","E","R","T","Y","U","I","O","P"] {
+var keyModel = Key(.Character)
+keyModel.keyCap = key
+keyModel.outputText = key
+
+switch key {
+case "E":
+keyModel.altChars = ["Ę","Ë","È","É","Ê","Ë","Ė","Ē"]
+case "O":
+keyModel.altChars = ["Ō","Ø","Œ","Õ","Ò","Ö","Ô","Ó"]
+default: break
+}
+
+
+self.addKey(keyModel, row: 0, page: 0)
+}
+for key in ["A","S","D","F","G","H","J","K","L"] {
+var keyModel = Key(.Character)
+keyModel.keyCap = key
+keyModel.outputText = key
+
+switch key {
+case "A":
+keyModel.altChars = ["Ą","À","Á","Â","Ä","Æ","Ã","Å","Ā"]
+case "S":
+keyModel.altChars = ["Ś","ß","Š"]
+case "L":
+keyModel.altChars = ["Ł"]
+default: break
+}
+
+
+self.addKey(keyModel, row: 1, page: 0)
+}
+var keyModel = Key(.Shift)
+keyModel.keyCap = ""
+self.addKey(keyModel, row: 2, page: 0)
+
+for key in ["Z","X","C","V","B","N","M"] {
+var keyModel = Key(.Character)
+keyModel.keyCap = key
+keyModel.outputText = key
+
+switch key {
+case "Z":
+keyModel.altChars = ["Ż","Ź","Ž"]
+case "C":
+keyModel.altChars = ["Ć","Ç","Č"]
+case "N":
+keyModel.altChars = ["Ñ","Ń"]
+default: break
+}
+
+
+self.addKey(keyModel, row: 2, page: 0)
+}
+var keyModel2 = Key(.Backspace)
+keyModel2.keyCap = ""
+self.addKey(keyModel2, row: 2, page: 0)
+
+case "Portuguese (Brasil)":
+self.spaceLabel = "espaço"
+self.returnLabel = "retorno"
+
+
+for key in ["Q","W","E","R","T","Y","U","I","O","P"] {
+var keyModel = Key(.Character)
+keyModel.keyCap = key
+keyModel.outputText = key
+
+switch key {
+case "E":
+keyModel.altChars = ["É","Ê","È","Ę","Ė","Ē","Ë"]
+case "U":
+keyModel.altChars = ["Ū","Û","Ù","Ü","Ú"]
+case "I":
+keyModel.altChars = ["Ī","Į","‎Ï","Ì","Î","Í"]
+case "O":
+keyModel.altChars = ["º","Ō","Ø","Œ","Ö","Ò","Ô","Õ","Ó"]
+default: break
+}
+
+
+self.addKey(keyModel, row: 0, page: 0)
+}
+for key in ["A","S","D","F","G","H","J","K","L"] {
+var keyModel = Key(.Character)
+keyModel.keyCap = key
+keyModel.outputText = key
+
+switch key {
+case "A":
+keyModel.altChars = ["Á","Ã","À","Â","Ä","Å","Æ","ª"]
+default: break
+}
+
+
+self.addKey(keyModel, row: 1, page: 0)
+}
+var keyModel = Key(.Shift)
+keyModel.keyCap = ""
+self.addKey(keyModel, row: 2, page: 0)
+
+for key in ["Z","X","C","V","B","N","M"] {
+var keyModel = Key(.Character)
+keyModel.keyCap = key
+keyModel.outputText = key
+
+switch key {
+case "C":
+keyModel.altChars = ["Ç"]
+case "N":
+keyModel.altChars = ["Ñ"]
+default: break
+}
+
+
+self.addKey(keyModel, row: 2, page: 0)
+}
+var keyModel2 = Key(.Backspace)
+keyModel2.keyCap = ""
+self.addKey(keyModel2, row: 2, page: 0)
+
+case "Portuguese (Portugal)":
+self.spaceLabel = "espaço"
+self.returnLabel = "retorno"
+
+
+for key in ["Q","W","E","R","T","Y","U","I","O","P"] {
+var keyModel = Key(.Character)
+keyModel.keyCap = key
+keyModel.outputText = key
+
+switch key {
+case "E":
+keyModel.altChars = ["É","Ê","È","Ę","Ė","Ē","Ë"]
+case "U":
+keyModel.altChars = ["Ū","Û","Ù","Ü","Ú"]
+case "I":
+keyModel.altChars = ["Ī","Į","‎Ï","Ì","Î","Í"]
+case "O":
+keyModel.altChars = ["º","Ō","Ø","Œ","Ö","Ò","Ô","Õ","Ó"]
+default: break
+}
+
+
+self.addKey(keyModel, row: 0, page: 0)
+}
+for key in ["A","S","D","F","G","H","J","K","L"] {
+var keyModel = Key(.Character)
+keyModel.keyCap = key
+keyModel.outputText = key
+
+switch key {
+case "A":
+keyModel.altChars = ["Á","Ã","À","Â","Ä","Å","Æ","ª"]
+default: break
+}
+
+
+self.addKey(keyModel, row: 1, page: 0)
+}
+var keyModel = Key(.Shift)
+keyModel.keyCap = ""
+self.addKey(keyModel, row: 2, page: 0)
+
+for key in ["Z","X","C","V","B","N","M"] {
+var keyModel = Key(.Character)
+keyModel.keyCap = key
+keyModel.outputText = key
+
+switch key {
+case "C":
+keyModel.altChars = ["Ç","Č","Ć"]
+case "N":
+keyModel.altChars = ["Ñ"]
+default: break
+}
+
+
+self.addKey(keyModel, row: 2, page: 0)
+}
+var keyModel2 = Key(.Backspace)
+keyModel2.keyCap = ""
+self.addKey(keyModel2, row: 2, page: 0)
+
+case "Romanian":
+self.spaceLabel = "Spaţiu"
+self.returnLabel = "Return"
+
+
+for key in ["Q","W","E","R","T","Y","U","I","O","P"] {
+var keyModel = Key(.Character)
+keyModel.keyCap = key
+keyModel.outputText = key
+
+switch key {
+case "T":
+keyModel.altChars = ["Ţ"]
+case "I":
+keyModel.altChars = ["Ī","Į","Í","Ì","‎Ï","Î"]
+default: break
+}
+
+
+self.addKey(keyModel, row: 0, page: 0)
+}
+for key in ["A","S","D","F","G","H","J","K","L"] {
+var keyModel = Key(.Character)
+keyModel.keyCap = key
+keyModel.outputText = key
+
+switch key {
+case "A":
+keyModel.altChars = ["Ă","Â","À","Á","Ä","Æ","Ã","Å","Ā"]
+case "S":
+keyModel.altChars = ["Ş","ß","Ś","Š"]
+default: break
+}
+
+
+self.addKey(keyModel, row: 1, page: 0)
+}
+var keyModel = Key(.Shift)
+keyModel.keyCap = ""
+self.addKey(keyModel, row: 2, page: 0)
+
+for key in ["Z","X","C","V","B","N","M"] {
+var keyModel = Key(.Character)
+keyModel.keyCap = key
+keyModel.outputText = key
+
+self.addKey(keyModel, row: 2, page: 0)
+}
+var keyModel2 = Key(.Backspace)
+keyModel2.keyCap = ""
+self.addKey(keyModel2, row: 2, page: 0)
+
+case "Russian":
+self.spaceLabel = "Пробел"
+self.returnLabel = "Ввод"
+
+
+for key in ["Й","Ц","У","К","Е","Н","Г","Ш","Щ","Э","Х"] {
+var keyModel = Key(.Character)
+keyModel.keyCap = key
+keyModel.outputText = key
+
+switch key {
+case "Е":
+keyModel.altChars = ["Ë"]
+default: break
+}
+
+
+self.addKey(keyModel, row: 0, page: 0)
+}
+for key in ["Ф","Ы","В","А","П","Р","О","Л","Д","Ж","З"] {
+var keyModel = Key(.Character)
+keyModel.keyCap = key
+keyModel.outputText = key
+
+self.addKey(keyModel, row: 1, page: 0)
+}
+var keyModel = Key(.Shift)
+keyModel.keyCap = ""
+self.addKey(keyModel, row: 2, page: 0)
+
+for key in ["Я","Ч","С","М","И","Т","Ы","Б","Ю"] {
+var keyModel = Key(.Character)
+keyModel.keyCap = key
+keyModel.outputText = key
+
+switch key {
+case "Ы":
+keyModel.altChars = ["Ъ"]
+default: break
+}
+
+
+self.addKey(keyModel, row: 2, page: 0)
+}
+var keyModel2 = Key(.Backspace)
+keyModel2.keyCap = ""
+self.addKey(keyModel2, row: 2, page: 0)
+
+case "Slovak":
+self.spaceLabel = "Medzerník"
+self.returnLabel = "Enter"
+
+
+for key in ["Q","W","E","R","T","Z","U","I","O","P"] {
+var keyModel = Key(.Character)
+keyModel.keyCap = key
+keyModel.outputText = key
+
+switch key {
+case "E":
+keyModel.altChars = ["Ě","É","È","Ê","Ë","Ę","Ė","Ē"]
+case "R":
+keyModel.altChars = ["Ŕ","Ř"]
+case "T":
+keyModel.altChars = ["Ť"]
+case "Z":
+keyModel.altChars = ["Ž","Ź","Ż"]
+case "U":
+keyModel.altChars = ["Ū","Ù","Ü","Û","Ů","Ú"]
+case "I":
+keyModel.altChars = ["Ī","Į","Ì","‎Ï","Î","Í"]
+case "O":
+keyModel.altChars = ["Ō","Ø","Œ","Õ","Ò","Ö","Ó","Ô"]
+default: break
+}
+
+
+self.addKey(keyModel, row: 0, page: 0)
+}
+for key in ["A","S","D","F","G","H","J","K","L","´"] {
+var keyModel = Key(.Character)
+keyModel.keyCap = key
+keyModel.outputText = key
+
+switch key {
+case "A":
+keyModel.altChars = ["Ä","Á","À","Â","Æ","Ã","Å","Ā"]
+case "S":
+keyModel.altChars = ["Š","ß","Ś"]
+case "D":
+keyModel.altChars = ["Ď"]
+case "L":
+keyModel.altChars = ["Ł","Ĺ","Ľ"]
+default: break
+}
+
+
+self.addKey(keyModel, row: 1, page: 0)
+}
+var keyModel = Key(.Shift)
+keyModel.keyCap = ""
+self.addKey(keyModel, row: 2, page: 0)
+
+for key in ["Y","X","C","V","B","N","M","ˇ"] {
+var keyModel = Key(.Character)
+keyModel.keyCap = key
+keyModel.outputText = key
+
+switch key {
+case "Y":
+keyModel.altChars = ["Ý","Ÿ"]
+case "C":
+keyModel.altChars = ["Č","Ç","Ć"]
+case "N":
+keyModel.altChars = ["Ń","Ñ","Ň"]
+default: break
+}
+
+
+self.addKey(keyModel, row: 2, page: 0)
+}
+var keyModel2 = Key(.Backspace)
+keyModel2.keyCap = ""
+self.addKey(keyModel2, row: 2, page: 0)
+
+case "Slovenian":
+self.spaceLabel = "Preslednica"
+self.returnLabel = "Potrdi"
+
+
+for key in ["Q","W","E","R","T","Z","U","I","O","P"] {
+var keyModel = Key(.Character)
+keyModel.keyCap = key
+keyModel.outputText = key
+
+switch key {
+case "E":
+keyModel.altChars = ["É","Ě","È","Ê","Ë","Ē"]
+case "T":
+keyModel.altChars = ["Ť"]
+case "Z":
+keyModel.altChars = ["Ž","Ź","Ż"]
+case "U":
+keyModel.altChars = ["Ū","Ù","Ü","Û","Ú"]
+case "I":
+keyModel.altChars = ["Ī","Ì","‎Ï","Î","Í"]
+case "O":
+keyModel.altChars = ["Ō","Ø","Ò","Ö","Ô","Ó"]
+default: break
+}
+
+
+self.addKey(keyModel, row: 0, page: 0)
+}
+for key in ["A","S","D","F","G","H","J","K","L"] {
+var keyModel = Key(.Character)
+keyModel.keyCap = key
+keyModel.outputText = key
+
+switch key {
+case "A":
+keyModel.altChars = ["Á","À","Â","Ä","Æ","Å","Ā"]
+case "S":
+keyModel.altChars = ["Š","ß","Ś"]
+case "D":
+keyModel.altChars = ["Đ","Ď"]
+case "L":
+keyModel.altChars = ["Ĺ","Ľ"]
+default: break
+}
+
+
+self.addKey(keyModel, row: 1, page: 0)
+}
+var keyModel = Key(.Shift)
+keyModel.keyCap = ""
+self.addKey(keyModel, row: 2, page: 0)
+
+for key in ["Y","X","C","V","B","N","M"] {
+var keyModel = Key(.Character)
+keyModel.keyCap = key
+keyModel.outputText = key
+
+switch key {
+case "Y":
+keyModel.altChars = ["Ý","Ÿ"]
+case "C":
+keyModel.altChars = ["Č","Ć","Ç"]
+case "N":
+keyModel.altChars = ["Ñ","Ň"]
+default: break
+}
+
+
+self.addKey(keyModel, row: 2, page: 0)
+}
+var keyModel2 = Key(.Backspace)
+keyModel2.keyCap = ""
+self.addKey(keyModel2, row: 2, page: 0)
+
+case "Spanish":
+self.spaceLabel = "espacio"
+self.returnLabel = "intro"
+
+
+for key in ["Q","W","E","R","T","Y","U","I","O","P"] {
+var keyModel = Key(.Character)
+keyModel.keyCap = key
+keyModel.outputText = key
+
+switch key {
+case "E":
+keyModel.altChars = ["Ě","É","È","Ê","Ë","Ę","Ė","Ē"]
+case "U":
+keyModel.altChars = ["Ū","Û","Ù","Ü","Ú"]
+case "I":
+keyModel.altChars = ["Ī","Į","Î","Ì","‎Ï","Í"]
+case "O":
+keyModel.altChars = ["º","Ō","Œ","Ø","Õ","Ô","Ö","Ò","Ó"]
+default: break
+}
+
+
+self.addKey(keyModel, row: 0, page: 0)
+}
+for key in ["A","S","D","F","G","H","J","K","L","Ñ"] {
+var keyModel = Key(.Character)
+keyModel.keyCap = key
+keyModel.outputText = key
+
+switch key {
+case "A":
+keyModel.altChars = ["Å","Ą","Æ","Ā","ª","Á","À","Ä","Â","Ã"]
+case "S":
+keyModel.altChars = ["Š"]
+case "D":
+keyModel.altChars = ["Đ"]
+case "L":
+keyModel.altChars = ["Ł","Ĺ","Ľ"]
+default: break
+}
+
+
+self.addKey(keyModel, row: 1, page: 0)
+}
+var keyModel = Key(.Shift)
+keyModel.keyCap = ""
+self.addKey(keyModel, row: 2, page: 0)
+
+for key in ["Z","X","C","V","B","N","M"] {
+var keyModel = Key(.Character)
+keyModel.keyCap = key
+keyModel.outputText = key
+
+switch key {
+case "C":
+keyModel.altChars = ["Ç","Ć","Č"]
+case "N":
+keyModel.altChars = ["Ń"]
+default: break
+}
+
+
+self.addKey(keyModel, row: 2, page: 0)
+}
+var keyModel2 = Key(.Backspace)
+keyModel2.keyCap = ""
+self.addKey(keyModel2, row: 2, page: 0)
+
+case "Swedish":
+self.spaceLabel = "mellanslag"
+self.returnLabel = "retur"
+
+
+for key in ["Q","W","E","R","T","Y","U","I","O","P","Å"] {
+var keyModel = Key(.Character)
+keyModel.keyCap = key
+keyModel.outputText = key
+
+switch key {
+case "E":
+keyModel.altChars = ["É","È","Ê","Ë","Ę"]
+case "U":
+keyModel.altChars = ["Û","Ü","Ù","Ú","Ū"]
+case "O":
+keyModel.altChars = ["Ō","Õ","Ó","Ò","Ô","Œ"]
+default: break
+}
+
+
+self.addKey(keyModel, row: 0, page: 0)
+}
+for key in ["A","S","D","F","G","H","J","K","L","Ö","Ä"] {
+var keyModel = Key(.Character)
+keyModel.keyCap = key
+keyModel.outputText = key
+
+switch key {
+case "A":
+keyModel.altChars = ["Á"]
+case "S":
+keyModel.altChars = ["ß","Ś","Š"]
+case "Ö":
+keyModel.altChars = ["Ø"]
+case "Ä":
+keyModel.altChars = ["Æ"]
+default: break
+}
+
+
+self.addKey(keyModel, row: 1, page: 0)
+}
+var keyModel = Key(.Shift)
+keyModel.keyCap = ""
+self.addKey(keyModel, row: 2, page: 0)
+
+for key in ["Z","X","C","V","B","N","M"] {
+var keyModel = Key(.Character)
+keyModel.keyCap = key
+keyModel.outputText = key
+
+self.addKey(keyModel, row: 2, page: 0)
+}
+var keyModel2 = Key(.Backspace)
+keyModel2.keyCap = ""
+self.addKey(keyModel2, row: 2, page: 0)
+
+case "Turkish":
+self.spaceLabel = "Boşluk"
+self.returnLabel = "Geç"
+
+
+for key in ["Q","W","E","R","T","Y","U","I","O","P","Ğ","Ü"] {
+var keyModel = Key(.Character)
+keyModel.keyCap = key
+keyModel.outputText = key
+
+switch key {
+case "U":
+keyModel.altChars = ["Ū","Ú","Ù","Û"]
+case "O":
+keyModel.altChars = ["Ō","Ø","Õ","Ó","Ò","Œ","Ô"]
+default: break
+}
+
+
+self.addKey(keyModel, row: 0, page: 0)
+}
+for key in ["A","S","D","F","G","H","J","K","L","Ş","İ"] {
+var keyModel = Key(.Character)
+keyModel.keyCap = key
+keyModel.outputText = key
+
+switch key {
+case "A":
+keyModel.altChars = ["Â"]
+case "S":
+keyModel.altChars = ["ß","Ś","Š"]
+case "İ":
+keyModel.altChars = ["Ī","Į","Í","Ì","‎Ï","Î"]
+default: break
+}
+
+
+self.addKey(keyModel, row: 1, page: 0)
+}
+var keyModel = Key(.Shift)
+keyModel.keyCap = ""
+self.addKey(keyModel, row: 2, page: 0)
+
+for key in ["Z","X","C","V","B","N","M","Ö","Ç"] {
+var keyModel = Key(.Character)
+keyModel.keyCap = key
+keyModel.outputText = key
+
+switch key {
+case "C":
+keyModel.altChars = ["Ć","Č"]
+default: break
+}
+
+
+self.addKey(keyModel, row: 2, page: 0)
+}
+var keyModel2 = Key(.Backspace)
+keyModel2.keyCap = ""
+self.addKey(keyModel2, row: 2, page: 0)
+
+case "Ukrainian":
+self.spaceLabel = "Пробiл"
+self.returnLabel = "Enter"
+
+
+for key in ["Й","Ц","У","К","Е","Н","Г","Ш","Щ","Э","Х"] {
+var keyModel = Key(.Character)
+keyModel.keyCap = key
+keyModel.outputText = key
+
+switch key {
+case "Е":
+keyModel.altChars = ["Ë"]
+case "Г":
+keyModel.altChars = ["Ґ"]
+default: break
+}
+
+
+self.addKey(keyModel, row: 0, page: 0)
+}
+for key in ["Ф","І","В","А","П","Р","О","Л","Д","Ж","Є"] {
+var keyModel = Key(.Character)
+keyModel.keyCap = key
+keyModel.outputText = key
+
+switch key {
+case "І":
+keyModel.altChars = ["Ї"]
+default: break
+}
+
+
+self.addKey(keyModel, row: 1, page: 0)
+}
+var keyModel = Key(.Shift)
+keyModel.keyCap = ""
+self.addKey(keyModel, row: 2, page: 0)
+
+for key in ["Я","Ч","С","М","И","Т","Ь","Б","Ю"] {
+var keyModel = Key(.Character)
+keyModel.keyCap = key
+keyModel.outputText = key
+
+switch key {
+case "И":
+keyModel.altChars = ["Ы"]
+case "Ь":
+keyModel.altChars = ["Ъ"]
+default: break
+}
+
+
+self.addKey(keyModel, row: 2, page: 0)
+}
+var keyModel2 = Key(.Backspace)
+keyModel2.keyCap = ""
+self.addKey(keyModel2, row: 2, page: 0)
+
+case "Vietnamese":
+self.spaceLabel = "dấu cách"
+self.returnLabel = "Nhập"
+
+
+for key in ["Q","W","E","R","T","Y","U","I","O","P"] {
+var keyModel = Key(.Character)
+keyModel.keyCap = key
+keyModel.outputText = key
+
+switch key {
+case "E":
+keyModel.altChars = ["Ế","Ể","Ề","Ễ","Ệ","É","Ẻ","È","Ẽ","Ẹ"]
+case "Y":
+keyModel.altChars = ["Ỵ","Ý","Ỹ","Ỷ","Ỳ"]
+case "U":
+keyModel.altChars = ["Ứ","Ử","Ư","Ừ","Ữ","Ự","Ú","Ủ","Ù","Ũ","Ụ"]
+case "I":
+keyModel.altChars = ["Ị","Í","Ĩ","Ỉ","Ì"]
+case "O":
+keyModel.altChars = ["Ợ","Ớ","Ỡ","Ở","Ờ","Ơ","Ố","Ỗ","Ộ","Ổ","Ồ","Ô","Ọ","Ó","Õ","Ỏ","Ò"]
+default: break
+}
+
+
+self.addKey(keyModel, row: 0, page: 0)
+}
+for key in ["A","S","D","F","G","H","J","K","L"] {
+var keyModel = Key(.Character)
+keyModel.keyCap = key
+keyModel.outputText = key
+
+switch key {
+case "A":
+keyModel.altChars = ["Ẵ","Ắ","Ặ","Â","Ầ","Ẩ","Ẫ","Ấ","Ậ","À","Ả","Ã","Á","Ạ","Ă","Ằ","Ẳ"]
+case "D":
+keyModel.altChars = ["Đ"]
+default: break
+}
+
+
+self.addKey(keyModel, row: 1, page: 0)
+}
+var keyModel = Key(.Shift)
+keyModel.keyCap = ""
+self.addKey(keyModel, row: 2, page: 0)
+
+for key in ["Z","X","C","V","B","N","M"] {
+var keyModel = Key(.Character)
+keyModel.keyCap = key
+keyModel.outputText = key
+
+self.addKey(keyModel, row: 2, page: 0)
+}
+var keyModel2 = Key(.Backspace)
+keyModel2.keyCap = ""
+self.addKey(keyModel2, row: 2, page: 0)
+

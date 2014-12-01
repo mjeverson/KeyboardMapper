@@ -1,0 +1,1980 @@
+<root><language name="English" apiCode="en" keyboardType="QWERTY" spaceLabel="space" returnLabel="return">
+	<row>
+		<character value="Q"/>
+		<character value="W"/>
+		<character value="E">
+			<alt value="È"/>
+			<alt value="É"/>
+			<alt value="Ê"/>
+			<alt value="Ë"/>
+			<alt value="Ē"/>
+			<alt value="Ė"/>
+			<alt value="Ę"/>
+		</character>
+		<character value="R"/>
+		<character value="T"/>
+		<character value="Y">
+			<alt value="Ÿ"/>
+		</character>
+		<character value="U">
+			<alt value="Ū"/>
+			<alt value="Ú"/>
+			<alt value="Ù"/>
+			<alt value="Ü"/>
+			<alt value="Û"/>
+		</character>
+		<character value="I">
+			<alt value="Ì"/>
+			<alt value="Į"/>
+			<alt value="Ī"/>
+			<alt value="Í"/>
+			<alt value="‎Ï"/>
+			<alt value="Î"/>
+		</character>
+		<character value="O">
+			<alt value="Õ"/>
+			<alt value="Ō"/>
+			<alt value="Ø"/>
+			<alt value="Œ"/>
+			<alt value="Ó"/>
+			<alt value="Ò"/>
+			<alt value="Ö"/>
+			<alt value="Ô"/>
+		</character>
+		<character value="P"/>
+	</row>
+	<row>
+		<character value="A">
+			<alt value="À"/>
+			<alt value="Á"/>
+			<alt value="Â"/>
+			<alt value="Ä"/>
+			<alt value="Æ"/>
+			<alt value="Ã"/>
+			<alt value="Å"/>
+			<alt value="Ā"/>
+		</character>
+		<character value="S">
+			<alt value="ß"/>
+			<alt value="Ś"/>
+			<alt value="Š"/>
+		</character>
+		<character value="D"/>
+		<character value="F"/>
+		<character value="G"/>
+		<character value="H"/>
+		<character value="J"/>
+		<character value="K"/>
+		<character value="L">
+			<alt value="Ł"/>
+		</character>
+	</row>
+	<row>
+		<character value="Z">
+			<alt value="Ž"/>
+			<alt value="Ź"/>
+			<alt value="Ż"/>
+		</character>
+		<character value="X"/>
+		<character value="C">
+			<alt value="Ç"/>
+			<alt value="Ć"/>
+			<alt value="Č"/>
+		</character>
+		<character value="V"/>
+		<character value="B"/>
+		<character value="N">
+			<alt value="Ń"/>
+			<alt value="Ň"/>
+		</character>
+		<character value="M"/>
+	</row>
+</language>
+
+<language name="French" apiCode="fr" keyboardType="QWERTY" spaceLabel="ESPACE" returnLabel="RETOUR">
+	<row>
+		<character value="Q"/>
+		<character value="W"/>
+		<character value="E">
+			<alt value="È"/>
+			<alt value="É"/>
+			<alt value="Ê"/>
+			<alt value="Ë"/>
+			<alt value="Ę"/>
+			<alt value="Ė"/>
+			<alt value="Ē"/>
+		</character>
+		<character value="R"/>
+		<character value="T"/>
+		<character value="Y">
+			<alt value="Ÿ"/>
+		</character>
+		<character value="U">
+			<alt value="Ū"/>
+			<alt value="Ú"/>
+			<alt value="Ü"/>
+			<alt value="Ù"/>
+			<alt value="Û"/>
+		</character>
+		<character value="I">
+			<alt value="Ī"/>
+			<alt value="Į"/>
+			<alt value="Í"/>
+			<alt value="Ì"/>
+			<alt value="‎Ï"/>
+			<alt value="Î"/>
+		</character>
+		<character value="O">
+			<alt value="Ō"/>
+			<alt value="Ø"/>
+			<alt value="Õ"/>
+			<alt value="Ó"/>
+			<alt value="Ò"/>
+			<alt value="Ö"/>
+			<alt value="Œ"/>
+			<alt value="Ô"/>
+		</character>
+		<character value="P"/>
+	</row>
+	<row>
+		<character value="A">
+			<alt value="À"/>
+			<alt value="Â"/>
+			<alt value="Æ"/>
+			<alt value="Á"/>
+			<alt value="Ä"/>
+			<alt value="Ã"/>
+			<alt value="Å"/>
+			<alt value="Ā"/>
+		</character>
+		<character value="S"/>
+		<character value="D"/>
+		<character value="F"/>
+		<character value="G"/>
+		<character value="H"/>
+		<character value="J"/>
+		<character value="K"/>
+		<character value="L">
+			<alt value="Ł"/>
+		</character>
+	</row>
+	<row>
+		<character value="Z">
+			<alt value="Ž"/>
+			<alt value="Ź"/>
+			<alt value="Ż"/>
+		</character>
+		<character value="X"/>
+		<character value="C">
+			<alt value="Ç"/>
+			<alt value="Ć"/>
+			<alt value="Č"/>
+		</character>
+		<character value="V"/>
+		<character value="B"/>
+		<character value="N">
+			<alt value="Ń"/>
+			<alt value="Ñ"/>
+		</character>
+		<character value="M"/>
+	</row>
+</language>
+
+<language name="French" apiCode="fr" keyboardType="AZERTY" spaceLabel="ESPACE" returnLabel="RETOUR">
+	<row>
+		<character value="A">
+			<alt value="À"/>
+			<alt value="Â"/>
+			<alt value="Æ"/>
+			<alt value="Á"/>
+			<alt value="Ä"/>
+			<alt value="Ã"/>
+			<alt value="Å"/>
+			<alt value="Ā"/>
+		</character>
+		<character value="Z"/>
+		<character value="E">
+			<alt value="È"/>
+			<alt value="É"/>
+			<alt value="Ê"/>
+			<alt value="Ë"/>
+			<alt value="Ę"/>
+			<alt value="Ė"/>
+			<alt value="Ē"/>
+		</character>
+		<character value="R"/>
+		<character value="T"/>
+		<character value="Y">
+			<alt value="Ÿ"/>
+		</character>
+		<character value="U">
+			<alt value="Ū"/>
+			<alt value="Ú"/>
+			<alt value="Ü"/>
+			<alt value="Ù"/>
+			<alt value="Û"/>
+		</character>
+		<character value="I">
+			<alt value="Ī"/>
+			<alt value="Į"/>
+			<alt value="Í"/>
+			<alt value="Ì"/>
+			<alt value="‎Ï"/>
+			<alt value="Î"/>
+		</character>
+		<character value="O">
+			<alt value="Ō"/>
+			<alt value="Ø"/>
+			<alt value="Õ"/>
+			<alt value="Ó"/>
+			<alt value="Ò"/>
+			<alt value="Ö"/>
+			<alt value="Œ"/>
+			<alt value="Ô"/>
+		</character>
+		<character value="P"/>
+	</row>
+	<row>
+		<character value="Q"/>
+		<character value="S"/>
+		<character value="D"/>
+		<character value="F"/>
+		<character value="G"/>
+		<character value="H"/>
+		<character value="J"/>
+		<character value="K"/>
+		<character value="L"/>
+		<character value="M"/>
+	</row>
+	<row>
+		<character value="W"/>
+		<character value="X"/>
+		<character value="C">
+			<alt value="Ç"/>
+			<alt value="Ć"/>
+			<alt value="Č"/>
+		</character>
+		<character value="V"/>
+		<character value="B"/>
+		<character value="N">
+			<alt value="Ń"/>
+			<alt value="Ñ"/>
+		</character>
+		<character value="´" type="chr">
+			<alt value="¨"/>
+			<alt value=" ̑"/>
+			<alt value="`"/>
+		</character>
+	</row>
+</language>
+
+<language name="Czech" apiCode="cs" keyboardType="Slovak" spaceLabel="Mezerník" returnLabel="Enter">
+	<row>
+		<character value="Q"/>
+		<character value="W"/>
+		<character value="E">
+			<alt value="Ě"/>
+			<alt value="É"/>
+			<alt value="È"/>
+			<alt value="Ê"/>
+			<alt value="Ë"/>
+			<alt value="Ę"/>
+			<alt value="Ė"/>
+			<alt value="Ē"/>
+		</character>
+		<character value="R">
+			<alt value="Ř"/>
+			<alt value="Ŕ"/>
+		</character>
+		<character value="T"/>
+		<character value="Z">
+			<alt value="Ž"/>
+			<alt value="Ź"/>
+			<alt value="Ż"/>
+		</character>
+		<character value="U">
+			<alt value="Ū"/>
+			<alt value="Ù"/>
+			<alt value="Ü"/>
+			<alt value="Û"/>
+			<alt value="Ů"/>
+			<alt value="Ú"/>
+		</character>
+		<character value="I">
+			<alt value="Ī"/>
+			<alt value="Į"/>
+			<alt value="Ì"/>
+			<alt value="‎Ï"/>
+			<alt value="Î"/>	
+			<alt value="Í"/>
+		</character>
+		<character value="O">
+			<alt value="Ō"/>
+			<alt value="Ø"/>
+			<alt value="Œ"/>
+			<alt value="Õ"/>
+			<alt value="Ò"/>
+			<alt value="Ö"/>
+			<alt value="Ô"/>
+			<alt value="Ó"/>
+		</character>
+		<character value="P"/>
+	</row>
+	<row>
+		<character value="A">
+			<alt value="Á"/>
+			<alt value="À"/>
+			<alt value="Ą"/>
+			<alt value="Â"/>
+			<alt value="Ä"/>
+			<alt value="Æ"/>
+			<alt value="Ã"/>
+			<alt value="Å"/>
+			<alt value="Ā"/>	
+		</character>
+		<character value="S">
+			<alt value="Š"/>
+			<alt value="ß"/>
+			<alt value="Ś"/>
+		</character>
+		<character value="D"/>
+		<character value="F"/>
+		<character value="G"/>
+		<character value="H"/>
+		<character value="J"/>
+		<character value="K"/>
+		<character value="L">
+			<alt value="Ł"/>
+		</character>
+		<character value="´"/>
+	</row>
+	<row>
+		<character value="Y">
+			<alt value="Ÿ"/>
+			<alt value="Ý"/>
+		</character>
+		<character value="X"/>
+		<character value="C">
+			<alt value="Č"/>
+			<alt value="Ç"/>
+			<alt value="Ć"/>
+		</character>
+		<character value="V"/>
+		<character value="B"/>
+		<character value="N">
+			<alt value="Ń"/>
+			<alt value="Ñ"/>
+			<alt value="Ň"/>
+		</character>
+		<character value="M"/>
+		<character value="ˇ"/>
+	</row>
+</language>
+
+
+<language name="Czech" apiCode="cs" keyboardType="QWERTY" spaceLabel="Mezerník" returnLabel="Enter">
+	<row>
+		<character value="Q"/>
+		<character value="W"/>
+		<character value="E">
+			<alt value="È"/>
+			<alt value="É"/>
+			<alt value="Ê"/>
+			<alt value="Ë"/>
+			<alt value="Ē"/>
+			<alt value="Ė"/>
+			<alt value="Ę"/>
+		</character>
+		<character value="R"/>
+		<character value="T"/>
+		<character value="Y">
+			<alt value="Ÿ"/>
+		</character>
+		<character value="U">
+			<alt value="Ū"/>
+			<alt value="Ú"/>
+			<alt value="Ù"/>
+			<alt value="Ü"/>
+			<alt value="Û"/>
+		</character>
+		<character value="I">
+			<alt value="Ì"/>
+			<alt value="Į"/>
+			<alt value="Ī"/>
+			<alt value="Í"/>
+			<alt value="‎Ï"/>
+			<alt value="Î"/>	
+		</character>
+		<character value="O">
+			<alt value="Õ"/>
+			<alt value="Ō"/>
+			<alt value="Ø"/>
+			<alt value="Œ"/>
+			<alt value="Ó"/>
+			<alt value="Ò"/>
+			<alt value="Ö"/>
+			<alt value="Ô"/>
+		</character>
+		<character value="P"/>
+	</row>
+	<row>
+		<character value="A">
+			<alt value="À"/>
+			<alt value="Á"/>
+			<alt value="Â"/>
+			<alt value="Ä"/>
+			<alt value="Æ"/>
+			<alt value="Ã"/>
+			<alt value="Å"/>
+			<alt value="Ā"/>	
+		</character>
+		<character value="S">
+			<alt value="ß"/>
+			<alt value="Ś"/>
+			<alt value="Š"/>
+		</character>
+		<character value="D"/>
+		<character value="F"/>
+		<character value="G"/>
+		<character value="H"/>
+		<character value="J"/>
+		<character value="K"/>
+		<character value="L">
+			<alt value="Ł"/>
+		</character>
+	</row>
+	<row>
+		<character value="Z">
+			<alt value="Ž"/>
+			<alt value="Ź"/>
+			<alt value="Ż"/>
+		</character>
+		<character value="X"/>
+		<character value="C">
+			<alt value="Ç"/>
+			<alt value="Ć"/>
+			<alt value="Č"/>
+		</character>
+		<character value="V"/>
+		<character value="B"/>
+		<character value="N">
+			<alt value="Ń"/>
+			<alt value="Ñ"/>
+		</character>
+		<character value="M"/>
+	</row>
+</language>
+
+
+<language name="Danish" apiCode="da" keyboardType="QWERTY" spaceLabel="Mellemrum" returnLabel="Retur">
+	<row>
+		<character value="Q"/>
+		<character value="W"/>
+		<character value="E">
+			<alt value="É"/>
+			<alt value="Ë"/>
+		</character>
+		<character value="R"/>
+		<character value="T"/>
+		<character value="Y">
+			<alt value="Ÿ"/>
+			<alt value="Ÿ"/>
+		</character>
+		<character value="U">
+			<alt value="Ū"/>
+			<alt value="Ù"/>
+			<alt value="Û"/>
+			<alt value="Ü"/>
+			<alt value="Ú"/>
+		</character>
+		<character value="I">
+			<alt value="‎Ï"/>
+			<alt value="Í"/>
+		</character>
+		<character value="O">
+			<alt value="Ö"/>
+			<alt value="Ō"/>
+			<alt value="Œ"/>
+			<alt value="Õ"/>
+			<alt value="Ò"/>
+			<alt value="Ô"/>
+			<alt value="Ó"/>
+		</character>
+		<character value="P"/>
+		<character value="Å"/>
+	</row>
+	<row>
+		<character value="A">
+			<alt value="Á"/>
+			<alt value="Ä"/>
+			<alt value="À"/>
+			<alt value="Â"/>
+			<alt value="Ã"/>
+			<alt value="Ā"/>	
+		</character>
+		<character value="S">
+			<alt value="ß"/>
+			<alt value="Ś"/>
+			<alt value="Š"/>
+		</character>
+		<character value="D">
+			<alt value="Đ"/>
+		</character>
+		<character value="F"/>
+		<character value="G"/>
+		<character value="H"/>
+		<character value="J"/>
+		<character value="K"/>
+		<character value="L">
+			<alt value="Ł"/>
+		</character>
+		<character value="Æ">
+			<alt value="Ä"/>
+		</character>
+		<character value="Ø">
+			<alt value="Ö"/>
+		</character>
+	</row>
+	<row>
+		<character value="Z">
+			<alt value="Ž"/>
+			<alt value="Ź"/>
+			<alt value="Ż"/>
+		</character>
+		<character value="X"/>
+		<character value="C"/>
+		<character value="V"/>
+		<character value="B"/>
+		<character value="N">
+			<alt value="Ń"/>
+			<alt value="Ñ"/>
+		</character>
+		<character value="M"/>
+	</row>
+</language>
+
+
+<language name="Dutch" apiCode="nl" keyboardType="QWERTY" spaceLabel="spatie" returnLabel="return">
+	<row>
+		<character value="Q"/>
+		<character value="W"/>
+		<character value="E">
+			<alt value="É"/>
+			<alt value="Ë"/>
+			<alt value="Ê"/>
+			<alt value="È"/>
+			<alt value="Ę"/>
+			<alt value="Ė"/>
+			<alt value="Ē"/>
+		</character>
+		<character value="R"/>
+		<character value="T"/>
+		<character value="Y"/>
+		<character value="U">
+			<alt value="Ū"/>
+			<alt value="Ù"/>
+			<alt value="Û"/>
+			<alt value="Ü"/>
+			<alt value="Ú"/>
+		</character>
+		<character value="I">
+			<alt value="Ī"/>
+			<alt value="Į"/>
+			<alt value="Î"/>
+			<alt value="‎Ï"/>
+			<alt value="Í"/>
+			<alt value="Ì"/>
+		</character>
+		<character value="O">
+			<alt value="Ō"/>
+			<alt value="Ø"/>
+			<alt value="Œ"/>
+			<alt value="Õ"/>
+			<alt value="Ò"/>
+			<alt value="Ô"/>
+			<alt value="Ö"/>
+			<alt value="Ó"/>
+		</character>
+		<character value="P"/>
+	</row>
+	<row>
+		<character value="A">
+			<alt value="Á"/>
+			<alt value="Ä"/>
+			<alt value="Â"/>
+			<alt value="À"/>
+			<alt value="Æ"/>
+			<alt value="Ã"/>
+			<alt value="Å"/>
+			<alt value="Ā"/>	
+		</character>
+		<character value="S"/>
+		<character value="D"/>
+		<character value="F"/>
+		<character value="G"/>
+		<character value="H"/>
+		<character value="J"/>
+		<character value="K"/>
+		<character value="L"/>
+	</row>
+	<row>
+		<character value="Z"/>
+		<character value="X"/>
+		<character value="C"/>
+		<character value="V"/>
+		<character value="B"/>
+		<character value="N">
+			<alt value="Ń"/>
+			<alt value="Ñ"/>
+		</character>
+		<character value="M"/>
+	</row>
+</language>
+
+
+<language name="Estonian" apiCode="et" keyboardType="QWERTY" spaceLabel="Tühik" returnLabel="Sisestus">
+	<row>
+		<character value="Q"/>
+		<character value="W"/>
+		<character value="E"/>
+		<character value="R"/>
+		<character value="T"/>
+		<character value="Y"/>
+		<character value="U">
+			<alt value="Ú"/>
+			<alt value="Û"/>
+			<alt value="Ü"/>
+			<alt value="Ù"/>
+			<alt value="Ū"/>
+		</character>
+		<character value="I">
+			<alt value="Ī"/>
+			<alt value="Į"/>
+			<alt value="Î"/>
+			<alt value="‎Ï"/>
+			<alt value="Í"/>
+			<alt value="Ì"/>
+		</character>
+		<character value="O">
+			<alt value="Ō"/>
+			<alt value="Ø"/>
+			<alt value="Œ"/>
+			<alt value="Ó"/>
+			<alt value="Ò"/>
+			<alt value="Ô"/>
+			<alt value="Ö"/>
+			<alt value="Õ"/>
+		</character>
+		<character value="P"/>
+	</row>
+	<row>
+		<character value="A">
+			<alt value="Ä"/>
+			<alt value="À"/>
+			<alt value="Á"/>
+			<alt value="Â"/>
+			<alt value="Æ"/>
+			<alt value="Ã"/>
+			<alt value="Å"/>
+			<alt value="Ā"/>	
+		</character>
+		<character value="S">
+			<alt value="Š"/>
+			<alt value="ß"/>
+			<alt value="Ś"/>
+		</character>
+		<character value="D"/>
+		<character value="F"/>
+		<character value="G"/>
+		<character value="H"/>
+		<character value="J"/>
+		<character value="K"/>
+		<character value="L"/>
+	</row>
+	<row>
+		<character value="Z">
+			<alt value="Ž"/>
+			<alt value="Ź"/>
+			<alt value="Ż"/>
+		</character>
+		<character value="X"/>
+		<character value="C"/>
+		<character value="V"/>
+		<character value="B"/>
+		<character value="N"/>
+		<character value="M"/>
+	</row>
+</language>
+
+
+<language name="Finnish" apiCode="fi" keyboardType="QWERTY" spaceLabel="väli" returnLabel="rivinvaihto">
+	<row>
+		<character value="Q"/>
+		<character value="W"/>
+		<character value="E">
+			<alt value="É"/>
+			<alt value="È"/>
+		</character>
+		<character value="R"/>
+		<character value="T">
+			<alt value="Ŧ"/>
+		</character>
+		<character value="Y"/>
+		<character value="U">
+			<alt value="Ü"/>
+		</character>
+		<character value="I">
+			<alt value="Í"/>
+		</character>
+		<character value="O">
+			<alt value="Ō"/>
+			<alt value="Œ"/>
+			<alt value="Õ"/>
+			<alt value="Ó"/>
+			<alt value="Ò"/>
+			<alt value="Ô"/>
+			<alt value="Ø"/>
+		</character>
+		<character value="P"/>
+		<character value="Å"/>
+	</row>
+	<row>
+		<character value="A">
+			<alt value="Æ"/>
+			<alt value="À"/>
+			<alt value="Á"/>
+			<alt value="Â"/>
+			<alt value="Ã"/>
+			<alt value="Ā"/>
+		</character>
+		<character value="S">
+			<alt value="Š"/>
+			<alt value="Ś"/>
+		</character>
+		<character value="D">
+			<alt value="Đ"/>
+		</character>
+		<character value="F"/>
+		<character value="G"/>
+		<character value="H"/>
+		<character value="J"/>
+		<character value="K"/>
+		<character value="L"/>
+		<character value="Ö">
+			<alt value="Ø"/>
+		</character>
+		<character value="Ä">
+			<alt value="Æ"/>
+		</character>
+	</row>
+	<row>
+		<character value="Z">
+			<alt value="Ž"/>
+			<alt value="Ź"/>
+			<alt value="Ż"/>
+		</character>
+		<character value="X"/>
+		<character value="C">
+			<alt value="Ç"/>
+		</character>
+		<character value="V"/>
+		<character value="B"/>
+		<character value="N">
+			<alt value="Ñ"/>
+			<alt value="Ŋ"/>
+		</character>
+		<character value="M"/>
+	</row>
+</language>
+
+
+<language name="Icelandic" apiCode="is" keyboardType="QWERTY" spaceLabel="Bil" returnLabel="Venda">
+	<row>
+		<character value="Q"/>
+		<character value="W"/>
+		<character value="E">
+			<alt value="É"/>
+			<alt value="È"/>
+			<alt value="Ê"/>
+			<alt value="Ë"/>
+			<alt value="Ę"/>
+			<alt value="Ė"/>
+			<alt value="Ē"/>
+		</character>
+		<character value="R"/>
+		<character value="T"/>
+		<character value="Y">
+			<alt value="Ý"/>
+			<alt value="Ÿ"/>
+		</character>
+		<character value="U">
+			<alt value="Ū"/>
+			<alt value="Ù"/>
+			<alt value="Ü"/>
+			<alt value="Û"/>
+			<alt value="Ú"/>
+		</character>
+		<character value="I">
+			<alt value="Ī"/>
+			<alt value="Į"/>
+			<alt value="Ì"/>
+			<alt value="‎Ï"/>
+			<alt value="Î"/>	
+			<alt value="Í"/>
+		</character>
+		<character value="O">
+			<alt value="Ō"/>
+			<alt value="Ø"/>
+			<alt value="Œ"/>
+			<alt value="Õ"/>
+			<alt value="Ò"/>
+			<alt value="Ô"/>
+			<alt value="Ó"/>
+		</character>
+		<character value="P"/>
+		<character value="Đ"/>
+	</row>
+	<row>
+		<character value="A">
+			<alt value="Á"/>
+			<alt value="À"/>
+			<alt value="Â"/>
+			<alt value="Ä"/>
+			<alt value="Ã"/>
+			<alt value="Å"/>
+			<alt value="Ā"/>
+		</character>
+		<character value="S"/>
+		<character value="D"/>
+		<character value="F"/>
+		<character value="G"/>
+		<character value="H"/>
+		<character value="J"/>
+		<character value="K"/>
+		<character value="L"/>
+		<character value="Æ"/>
+		<character value="Ö"/>
+	</row>
+	<row>
+		<character value="Z"/>
+		<character value="X"/>
+		<character value="C"/>
+		<character value="V"/>
+		<character value="B"/>
+		<character value="N"/>
+		<character value="M"/>
+		<character value="Þ"/>
+	</row>
+</language>
+
+
+<language name="Irish" apiCode="ga" keyboardType="QWERTY" spaceLabel="SPACE" returnLabel="RETURN">
+	<row>
+		<character value="Q"/>
+		<character value="W"/>
+		<character value="E">
+			<alt value="È"/>
+			<alt value="É"/>
+			<alt value="Ê"/>
+			<alt value="Ë"/>
+			<alt value="Ē"/>
+			<alt value="Ė"/>
+			<alt value="Ę"/>
+		</character>
+		<character value="R"/>
+		<character value="T"/>
+		<character value="Y">
+			<alt value="Ÿ"/>
+		</character>
+		<character value="U">
+			<alt value="Ū"/>
+			<alt value="Ú"/>
+			<alt value="Ù"/>
+			<alt value="Ü"/>
+			<alt value="Û"/>
+		</character>
+		<character value="I">
+			<alt value="Ì"/>
+			<alt value="Į"/>
+			<alt value="Ī"/>
+			<alt value="Í"/>
+			<alt value="‎Ï"/>
+			<alt value="Î"/>
+		</character>
+		<character value="O">
+			<alt value="Õ"/>
+			<alt value="Ō"/>
+			<alt value="Ø"/>
+			<alt value="Œ"/>
+			<alt value="Ó"/>
+			<alt value="Ò"/>
+			<alt value="Ö"/>
+			<alt value="Ô"/>
+		</character>
+		<character value="P"/>
+	</row>
+	<row>
+		<character value="A">
+			<alt value="À"/>
+			<alt value="Á"/>
+			<alt value="Â"/>
+			<alt value="Ä"/>
+			<alt value="Æ"/>
+			<alt value="Ã"/>
+			<alt value="Å"/>
+			<alt value="Ā"/>
+		</character>
+		<character value="S">
+			<alt value="ß"/>
+			<alt value="Ś"/>
+			<alt value="Š"/>
+		</character>
+		<character value="D"/>
+		<character value="F"/>
+		<character value="G"/>
+		<character value="H"/>
+		<character value="J"/>
+		<character value="K"/>
+		<character value="L">
+			<alt value="Ł"/>
+		</character>
+	</row>
+	<row>
+		<character value="Z">
+			<alt value="Ž"/>
+			<alt value="Ź"/>
+			<alt value="Ż"/>
+		</character>
+		<character value="X"/>
+		<character value="C">
+			<alt value="Ç"/>
+			<alt value="Ć"/>
+			<alt value="Č"/>
+		</character>
+		<character value="V"/>
+		<character value="B"/>
+		<character value="N">
+			<alt value="Ń"/>
+			<alt value="Ň"/>
+		</character>
+		<character value="M"/>
+	</row>
+</language>
+
+
+<language name="Italian" apiCode="it" keyboardType="QWERTY" spaceLabel="spazio" returnLabel="invio">
+	<row>
+		<character value="Q"/>
+		<character value="W"/>
+		<character value="E">
+			<alt value="È"/>
+			<alt value="É"/>
+			<alt value="Ê"/>
+			<alt value="Ë"/>
+			<alt value="Ę"/>
+			<alt value="Ė"/>
+			<alt value="Ē"/>
+		</character>
+		<character value="R"/>
+		<character value="T"/>
+		<character value="Y"/>
+		<character value="U">
+			<alt value="Ū"/>
+			<alt value="Ü"/>
+			<alt value="Û"/>
+			<alt value="Ú"/>
+			<alt value="Ù"/>
+		</character>
+		<character value="I">
+			<alt value="Ī"/>
+			<alt value="Į"/>
+			<alt value="‎Ï"/>
+			<alt value="Î"/>	
+			<alt value="Í"/>
+			<alt value="Ì"/>
+		</character>
+		<character value="O">
+			<alt value="º"/>
+			<alt value="Ō"/>
+			<alt value="Ø"/>
+			<alt value="Œ"/>
+			<alt value="Õ"/>
+			<alt value="Ö"/>
+			<alt value="Ô"/>
+			<alt value="Ó"/>
+			<alt value="Ò"/>
+		</character>
+		<character value="P"/>
+	</row>
+	<row>
+		<character value="A">
+			<alt value="À"/>
+			<alt value="Á"/>
+			<alt value="Â"/>
+			<alt value="Ä"/>
+			<alt value="Æ"/>
+			<alt value="Ã"/>
+			<alt value="Å"/>
+			<alt value="Ā"/>
+			<alt value="ª"/>
+		</character>
+		<character value="S">
+			<alt value="ß"/>
+			<alt value="Ś"/>
+			<alt value="Š"/>
+		</character>
+		<character value="D"/>
+		<character value="F"/>
+		<character value="G"/>
+		<character value="H"/>
+		<character value="J"/>
+		<character value="K"/>
+		<character value="L"/>
+	</row>
+	<row>
+		<character value="Z"/>
+		<character value="X"/>
+		<character value="C">
+			<alt value="Ç"/>
+			<alt value="Ć"/>
+			<alt value="Č"/>
+		</character>
+		<character value="V"/>
+		<character value="B"/>
+		<character value="N"/>
+		<character value="M"/>
+	</row>
+</language>
+
+
+<language name="Latvian" apiCode="lv" keyboardType="QWERTY" spaceLabel="Atstarpe" returnLabel="levadīt">
+	<row>
+		<character value="Q"/>
+		<character value="W"/>
+		<character value="E">
+			<alt value="Ē"/>
+			<alt value="È"/>
+			<alt value="É"/>
+			<alt value="Ê"/>
+			<alt value="Ë"/>
+			<alt value="Ę"/>
+			<alt value="Ė"/>
+		</character>
+		<character value="R">
+			<alt value="Ŗ"/>
+		</character>
+		<character value="T"/>
+		<character value="Y"/>
+		<character value="U">
+			<alt value="Ú"/>
+			<alt value="Ù"/>
+			<alt value="Ü"/>
+			<alt value="Û"/>
+			<alt value="Ū"/>
+		</character>
+		<character value="I">
+			<alt value="Į"/>
+			<alt value="Í"/>
+			<alt value="Ì"/>
+			<alt value="‎Ï"/>
+			<alt value="Î"/>	
+			<alt value="Ī"/>
+		</character>
+		<character value="O"/>
+		<character value="P"/>
+	</row>
+	<row>
+		<character value="A">
+			<alt value="Ā"/>
+			<alt value="À"/>
+			<alt value="Á"/>
+			<alt value="Â"/>
+			<alt value="Ä"/>
+			<alt value="Æ"/>
+			<alt value="Ã"/>
+			<alt value="Å"/>
+		</character>
+		<character value="S">
+			<alt value="Š"/>
+			<alt value="ß"/>
+			<alt value="Ś"/>
+		</character>
+		<character value="D"/>
+		<character value="F"/>
+		<character value="G">
+			<alt value="Ģ"/>
+		</character>
+		<character value="H"/>
+		<character value="J"/>
+		<character value="K">
+			<alt value="Ķ"/>
+		</character>
+		<character value="L">
+			<alt value="Ł"/>
+			<alt value="Ļ"/>
+		</character>
+	</row>
+	<row>
+		<character value="Z">
+			<alt value="Ž"/>
+			<alt value="Ź"/>
+			<alt value="Ż"/>
+		</character>
+		<character value="X"/>
+		<character value="C">
+			<alt value="Ć"/>
+			<alt value="Ç"/>
+			<alt value="Č"/>
+		</character>
+		<character value="V"/>
+		<character value="B"/>
+		<character value="N">
+			<alt value="Ń"/>
+			<alt value="Ñ"/>
+			<alt value="Ņ"/>
+		</character>
+		<character value="M"/>
+	</row>
+</language>
+
+
+<language name="Norwegian" apiCode="no" keyboardType="QWERTY" spaceLabel="mellomrom" returnLabel="retur">
+	<row>
+		<character value="Q"/>
+		<character value="W"/>
+		<character value="E">
+			<alt value="Ë"/>
+			<alt value="È"/>
+			<alt value="É"/>
+			<alt value="Ê"/>
+			<alt value="Ę"/>
+			<alt value="Ė"/>
+			<alt value="Ē"/>
+		</character>
+		<character value="R"/>
+		<character value="T"/>
+		<character value="Y"/>
+		<character value="U">
+			<alt value="Ū"/>
+			<alt value="Ú"/>
+			<alt value="Ù"/>
+			<alt value="Û"/>
+			<alt value="Ü"/>
+		</character>
+		<character value="I"/>
+		<character value="O">
+			<alt value="Ō"/>
+			<alt value="Œ"/>
+			<alt value="Õ"/>
+			<alt value="Ö"/>
+			<alt value="Ó"/>
+			<alt value="Ò"/>
+			<alt value="Ô"/>
+		</character>
+		<character value="P"/>
+		<character value="Å"/>
+	</row>
+	<row>
+		<character value="A">
+			<alt value="À"/>
+			<alt value="Ä"/>
+			<alt value="Á"/>
+			<alt value="Â"/>
+			<alt value="Ã"/>
+			<alt value="Ā"/>
+		</character>
+		<character value="S"/>
+		<character value="D"/>
+		<character value="F"/>
+		<character value="G"/>
+		<character value="H"/>
+		<character value="J"/>
+		<character value="K"/>
+		<character value="L"/>
+		<character value="Ø">
+			<alt value="Ö"/>
+		</character>
+		<character value="Æ">
+			<alt value="Ä"/>
+		</character>
+	</row>
+	<row>
+		<character value="Z"/>
+		<character value="X"/>
+		<character value="C"/>
+		<character value="V"/>
+		<character value="B"/>
+		<character value="N"/>
+		<character value="M"/>
+	</row>
+</language>
+
+
+<language name="Polish" apiCode="pl" keyboardType="QWERTY" spaceLabel="spacja" returnLabel="return">
+	<row>
+		<character value="Q"/>
+		<character value="W"/>
+		<character value="E">
+			<alt value="Ę"/>
+			<alt value="Ë"/>
+			<alt value="È"/>
+			<alt value="É"/>
+			<alt value="Ê"/>
+			<alt value="Ë"/>
+			<alt value="Ė"/>
+			<alt value="Ē"/>
+		</character>
+		<character value="R"/>
+		<character value="T"/>
+		<character value="Y"/>
+		<character value="U"/>
+		<character value="I"/>
+		<character value="O">
+			<alt value="Ō"/>
+			<alt value="Ø"/>
+			<alt value="Œ"/>
+			<alt value="Õ"/>
+			<alt value="Ò"/>
+			<alt value="Ö"/>
+			<alt value="Ô"/>
+			<alt value="Ó"/>
+		</character>
+		<character value="P"/>
+	</row>
+	<row>
+		<character value="A">
+			<alt value="Ą"/>
+			<alt value="À"/>
+			<alt value="Á"/>
+			<alt value="Â"/>
+			<alt value="Ä"/>
+			<alt value="Æ"/>
+			<alt value="Ã"/>
+			<alt value="Å"/>
+			<alt value="Ā"/>
+		</character>
+		<character value="S">
+			<alt value="Ś"/>
+			<alt value="ß"/>
+			<alt value="Š"/>
+		</character>
+		<character value="D"/>
+		<character value="F"/>
+		<character value="G"/>
+		<character value="H"/>
+		<character value="J"/>
+		<character value="K"/>
+		<character value="L">
+			<alt value="Ł"/>
+		</character>
+	</row>
+	<row>
+		<character value="Z">
+			<alt value="Ż"/>
+			<alt value="Ź"/>
+			<alt value="Ž"/>
+		</character>
+		<character value="X"/>
+		<character value="C">
+			<alt value="Ć"/>
+			<alt value="Ç"/>
+			<alt value="Č"/>
+		</character>
+		<character value="V"/>
+		<character value="B"/>
+		<character value="N">
+			<alt value="Ñ"/>
+			<alt value="Ń"/>
+		</character>
+		<character value="M"/>
+	</row>
+</language>
+
+
+<language name="Portuguese (Brasil)" apiCode="pt" keyboardType="QWERTY" spaceLabel="espaço" returnLabel="retorno">
+	<row>
+		<character value="Q"/>
+		<character value="W"/>
+		<character value="E">
+			<alt value="É"/>
+			<alt value="Ê"/>
+			<alt value="È"/>
+			<alt value="Ę"/>
+			<alt value="Ė"/>
+			<alt value="Ē"/>
+			<alt value="Ë"/>
+		</character>
+		<character value="R"/>
+		<character value="T"/>
+		<character value="Y"/>
+		<character value="U">
+			<alt value="Ū"/>
+			<alt value="Û"/>
+			<alt value="Ù"/>
+			<alt value="Ü"/>
+			<alt value="Ú"/>
+		</character>
+		<character value="I">
+			<alt value="Ī"/>
+			<alt value="Į"/>
+			<alt value="‎Ï"/>
+			<alt value="Ì"/>
+			<alt value="Î"/>	
+			<alt value="Í"/>
+		</character>
+		<character value="O">
+			<alt value="º"/>
+			<alt value="Ō"/>
+			<alt value="Ø"/>
+			<alt value="Œ"/>
+			<alt value="Ö"/>
+			<alt value="Ò"/>
+			<alt value="Ô"/>
+			<alt value="Õ"/>
+			<alt value="Ó"/>
+		</character>
+		<character value="P"/>
+	</row>
+	<row>
+		<character value="A">
+			<alt value="Á"/>
+			<alt value="Ã"/>
+			<alt value="À"/>
+			<alt value="Â"/>
+			<alt value="Ä"/>
+			<alt value="Å"/>
+			<alt value="Æ"/>
+			<alt value="ª"/>
+		</character>
+		<character value="S"/>
+		<character value="D"/>
+		<character value="F"/>
+		<character value="G"/>
+		<character value="H"/>
+		<character value="J"/>
+		<character value="K"/>
+		<character value="L"/>
+	</row>
+	<row>
+		<character value="Z"/>
+		<character value="X"/>
+		<character value="C">
+			<alt value="Ç"/>
+		</character>
+		<character value="V"/>
+		<character value="B"/>
+		<character value="N">
+			<alt value="Ñ"/>
+		</character>
+		<character value="M"/>
+	</row>
+</language>
+
+
+<language name="Portuguese (Portugal)" apiCode="pt" keyboardType="QWERTY" spaceLabel="espaço" returnLabel="retorno">
+	<row>
+		<character value="Q"/>
+		<character value="W"/>
+		<character value="E">
+			<alt value="É"/>
+			<alt value="Ê"/>
+			<alt value="È"/>
+			<alt value="Ę"/>
+			<alt value="Ė"/>
+			<alt value="Ē"/>
+			<alt value="Ë"/>
+		</character>
+		<character value="R"/>
+		<character value="T"/>
+		<character value="Y"/>
+		<character value="U">
+			<alt value="Ū"/>
+			<alt value="Û"/>
+			<alt value="Ù"/>
+			<alt value="Ü"/>
+			<alt value="Ú"/>
+		</character>
+		<character value="I">
+			<alt value="Ī"/>
+			<alt value="Į"/>
+			<alt value="‎Ï"/>
+			<alt value="Ì"/>
+			<alt value="Î"/>	
+			<alt value="Í"/>
+		</character>
+		<character value="O">
+			<alt value="º"/>
+			<alt value="Ō"/>
+			<alt value="Ø"/>
+			<alt value="Œ"/>
+			<alt value="Ö"/>
+			<alt value="Ò"/>
+			<alt value="Ô"/>
+			<alt value="Õ"/>
+			<alt value="Ó"/>
+		</character>
+		<character value="P"/>
+	</row>
+	<row>
+		<character value="A">
+			<alt value="Á"/>
+			<alt value="Ã"/>
+			<alt value="À"/>
+			<alt value="Â"/>
+			<alt value="Ä"/>
+			<alt value="Å"/>
+			<alt value="Æ"/>
+			<alt value="ª"/>
+		</character>
+		<character value="S"/>
+		<character value="D"/>
+		<character value="F"/>
+		<character value="G"/>
+		<character value="H"/>
+		<character value="J"/>
+		<character value="K"/>
+		<character value="L"/>
+	</row>
+	<row>
+		<character value="Z"/>
+		<character value="X"/>
+		<character value="C">
+			<alt value="Ç"/>
+			<alt value="Č"/>
+			<alt value="Ć"/>
+		</character>
+		<character value="V"/>
+		<character value="B"/>
+		<character value="N">
+			<alt value="Ñ"/>
+		</character>
+		<character value="M"/>
+	</row>
+</language>
+
+
+<language name="Romanian" apiCode="ro" keyboardType="QWERTY" spaceLabel="Spaţiu" returnLabel="Return">
+	<row>
+		<character value="Q"/>
+		<character value="W"/>
+		<character value="E"/>
+		<character value="R"/>
+		<character value="T">
+			<alt value="Ţ"/>
+		</character>
+		<character value="Y"/>
+		<character value="U"/>
+		<character value="I">
+			<alt value="Ī"/>
+			<alt value="Į"/>
+			<alt value="Í"/>
+			<alt value="Ì"/>
+			<alt value="‎Ï"/>
+			<alt value="Î"/>		
+		</character>
+		<character value="O"/>
+		<character value="P"/>
+	</row>
+	<row>
+		<character value="A">
+			<alt value="Ă"/>
+			<alt value="Â"/>
+			<alt value="À"/>
+			<alt value="Á"/>
+			<alt value="Ä"/>
+			<alt value="Æ"/>
+			<alt value="Ã"/>
+			<alt value="Å"/>
+			<alt value="Ā"/>	
+		</character>
+		<character value="S">
+			<alt value="Ş"/>
+			<alt value="ß"/>
+			<alt value="Ś"/>
+			<alt value="Š"/>
+		</character>
+		<character value="D"/>
+		<character value="F"/>
+		<character value="G"/>
+		<character value="H"/>
+		<character value="J"/>
+		<character value="K"/>
+		<character value="L"/>
+	</row>
+	<row>
+		<character value="Z"/>
+		<character value="X"/>
+		<character value="C"/>
+		<character value="V"/>
+		<character value="B"/>
+		<character value="N"/>
+		<character value="M"/>
+	</row>
+</language>
+
+
+<language name="Slovak" apiCode="sk" keyboardType="QWERTZ" spaceLabel="Medzerník" returnLabel="Enter">
+	<row>
+		<character value="Q"/>
+		<character value="W"/>
+		<character value="E">
+			<alt value="Ě"/>
+			<alt value="É"/>
+			<alt value="È"/>
+			<alt value="Ê"/>
+			<alt value="Ë"/>
+			<alt value="Ę"/>
+			<alt value="Ė"/>
+			<alt value="Ē"/>
+		</character>
+		<character value="R">
+			<alt value="Ŕ"/>
+			<alt value="Ř"/>
+		</character>
+		<character value="T">
+			<alt value="Ť"/>
+		</character>
+		<character value="Z">
+			<alt value="Ž"/>
+			<alt value="Ź"/>
+			<alt value="Ż"/>
+		</character>
+		<character value="U">
+			<alt value="Ū"/>
+			<alt value="Ù"/>
+			<alt value="Ü"/>
+			<alt value="Û"/>
+			<alt value="Ů"/>
+			<alt value="Ú"/>
+		</character>
+		<character value="I">
+			<alt value="Ī"/>
+			<alt value="Į"/>
+			<alt value="Ì"/>
+			<alt value="‎Ï"/>
+			<alt value="Î"/>	
+			<alt value="Í"/>
+		</character>
+		<character value="O">
+			<alt value="Ō"/>
+			<alt value="Ø"/>
+			<alt value="Œ"/>
+			<alt value="Õ"/>
+			<alt value="Ò"/>
+			<alt value="Ö"/>
+			<alt value="Ó"/>
+			<alt value="Ô"/>
+		</character>
+		<character value="P"/>
+	</row>
+	<row>
+		<character value="A">
+			<alt value="Ä"/>
+			<alt value="Á"/>
+			<alt value="À"/>		
+			<alt value="Â"/>
+			<alt value="Æ"/>
+			<alt value="Ã"/>
+			<alt value="Å"/>
+			<alt value="Ā"/>	
+		</character>
+		<character value="S">
+			<alt value="Š"/>
+			<alt value="ß"/>
+			<alt value="Ś"/>
+		</character>
+		<character value="D">
+			<alt value="Ď"/>
+		</character>
+		<character value="F"/>
+		<character value="G"/>
+		<character value="H"/>
+		<character value="J"/>
+		<character value="K"/>
+		<character value="L">
+			<alt value="Ł"/>
+			<alt value="Ĺ"/>
+			<alt value="Ľ"/>
+		</character>
+		<character value="´" type="chr"/>
+	</row>
+	<row>
+		<character value="Y">
+			<alt value="Ý"/>
+			<alt value="Ÿ"/>
+		</character>
+		<character value="X"/>
+		<character value="C">
+			<alt value="Č"/>
+			<alt value="Ç"/>
+			<alt value="Ć"/>
+		</character>
+		<character value="V"/>
+		<character value="B"/>
+		<character value="N">
+			<alt value="Ń"/>
+			<alt value="Ñ"/>
+			<alt value="Ň"/>
+		</character>
+		<character value="M"/>
+		<character value="ˇ" type="chr"/>
+	</row>
+</language>
+
+
+<language name="Spanish" apiCode="es" keyboardType="QWERTY" spaceLabel="espacio" returnLabel="intro">
+	<row>
+		<character value="Q"/>
+		<character value="W"/>
+		<character value="E">
+			<alt value="Ě"/>
+			<alt value="É"/>
+			<alt value="È"/>
+			<alt value="Ê"/>
+			<alt value="Ë"/>
+			<alt value="Ę"/>
+			<alt value="Ė"/>
+			<alt value="Ē"/>
+		</character>
+		<character value="R"/>
+		<character value="T"/>
+		<character value="Y"/>
+		<character value="U">
+			<alt value="Ū"/>
+			<alt value="Û"/>
+			<alt value="Ù"/>
+			<alt value="Ü"/>
+			<alt value="Ú"/>
+		</character>
+		<character value="I">
+			<alt value="Ī"/>
+			<alt value="Į"/>
+			<alt value="Î"/>
+			<alt value="Ì"/>
+			<alt value="‎Ï"/>
+			<alt value="Í"/>
+		</character>
+		<character value="O">
+			<alt value="º"/>
+			<alt value="Ō"/>
+			<alt value="Œ"/>
+			<alt value="Ø"/>
+			<alt value="Õ"/>
+			<alt value="Ô"/>
+			<alt value="Ö"/>
+			<alt value="Ò"/>
+			<alt value="Ó"/>
+		</character>
+		<character value="P"/>
+	</row>
+	<row>
+		<character value="A">
+			<alt value="Å"/>
+			<alt value="Ą"/>
+			<alt value="Æ"/>
+			<alt value="Ā"/>	
+			<alt value="ª"/>
+			<alt value="Á"/>
+			<alt value="À"/>
+			<alt value="Ä"/>
+			<alt value="Â"/>
+			<alt value="Ã"/>
+		</character>
+		<character value="S">
+			<alt value="Š"/>
+		</character>
+		<character value="D">
+			<alt value="Đ"/>
+		</character>
+		<character value="F"/>
+		<character value="G"/>
+		<character value="H"/>
+		<character value="J"/>
+		<character value="K"/>
+		<character value="L">
+			<alt value="Ł"/>
+			<alt value="Ĺ"/>
+			<alt value="Ľ"/>
+		</character>
+		<character value="Ñ"/>
+	</row>
+	<row>
+		<character value="Z"/>
+		<character value="X"/>
+		<character value="C">
+			<alt value="Ç"/>
+			<alt value="Ć"/>
+			<alt value="Č"/>
+		</character>
+		<character value="V"/>
+		<character value="B"/>
+		<character value="N">
+			<alt value="Ń"/>
+		</character>
+		<character value="M"/>
+	</row>
+</language>
+
+
+<language name="Swedish" apiCode="sv" keyboardType="QWERTY" spaceLabel="mellanslag" returnLabel="retur">
+	<row>
+		<character value="Q"/>
+		<character value="W"/>
+		<character value="E">
+			<alt value="É"/>
+			<alt value="È"/>
+			<alt value="Ê"/>
+			<alt value="Ë"/>
+			<alt value="Ę"/>
+		</character>
+		<character value="R"/>
+		<character value="T"/>
+		<character value="Y"/>
+		<character value="U">
+			<alt value="Û"/>
+			<alt value="Ü"/>
+			<alt value="Ù"/>
+			<alt value="Ú"/>
+			<alt value="Ū"/>
+		</character>
+		<character value="I"/>
+		<character value="O">
+			<alt value="Ō"/>
+			<alt value="Õ"/>
+			<alt value="Ó"/>
+			<alt value="Ò"/>
+			<alt value="Ô"/>
+			<alt value="Œ"/>
+		</character>
+		<character value="P"/>
+		<character value="Å"/>
+	</row>
+	<row>
+		<character value="A">
+			<alt value="Á"/>
+		</character>
+		<character value="S">
+			<alt value="ß"/>
+			<alt value="Ś"/>
+			<alt value="Š"/>
+		</character>
+		<character value="D"/>
+		<character value="F"/>
+		<character value="G"/>
+		<character value="H"/>
+		<character value="J"/>
+		<character value="K"/>
+		<character value="L"/>
+		<character value="Ö">
+			<alt value="Ø"/>
+		</character>
+		<character value="Ä">
+			<alt value="Æ"/>
+		</character>
+	</row>
+	<row>
+		<character value="Z"/>
+		<character value="X"/>
+		<character value="C"/>
+		<character value="V"/>
+		<character value="B"/>
+		<character value="N"/>
+		<character value="M"/>
+	</row>
+</language>
+
+
+<language name="Turkish" apiCode="tr" keyboardType="QWERTY" spaceLabel="Boşluk" returnLabel="Geç">
+	<row>
+		<character value="Q"/>
+		<character value="W"/>
+		<character value="E"/>
+		<character value="R"/>
+		<character value="T"/>
+		<character value="Y"/>
+		<character value="U">
+			<alt value="Ū"/>
+			<alt value="Ú"/>
+			<alt value="Ù"/>
+			<alt value="Û"/>
+		</character>
+		<character value="I"/>
+		<character value="O">
+			<alt value="Ō"/>
+			<alt value="Ø"/>
+			<alt value="Õ"/>
+			<alt value="Ó"/>
+			<alt value="Ò"/>
+			<alt value="Œ"/>
+			<alt value="Ô"/>
+		</character>
+		<character value="P"/>
+		<character value="Ğ"/>
+		<character value="Ü"/>
+	</row>
+	<row>
+		<character value="A">
+			<alt value="Â"/>
+		</character>
+		<character value="S">
+			<alt value="ß"/>
+			<alt value="Ś"/>
+			<alt value="Š"/>
+		</character>
+		<character value="D"/>
+		<character value="F"/>
+		<character value="G"/>
+		<character value="H"/>
+		<character value="J"/>
+		<character value="K"/>
+		<character value="L"/>
+		<character value="Ş"/>
+		<character value="İ">	
+			<alt value="Ī"/>
+			<alt value="Į"/>
+			<alt value="Í"/>
+			<alt value="Ì"/>
+			<alt value="‎Ï"/>
+			<alt value="Î"/>	
+		</character>
+	</row>
+	<row>
+		<character value="Z"/>
+		<character value="X"/>
+		<character value="C">
+			<alt value="Ć"/>
+			<alt value="Č"/>
+		</character>
+		<character value="V"/>
+		<character value="B"/>
+		<character value="N"/>
+		<character value="M"/>
+		<character value="Ö"/>
+		<character value="Ç"/>
+	</row>
+</language>
+
+
+<language name="Vietnamese" apiCode="vi" keyboardType="QWERTY" spaceLabel="dấu cách" returnLabel="Nhập">
+	<row>
+		<character value="Q"/>
+		<character value="W"/>
+		<character value="E">
+			<alt value="Ế"/>
+			<alt value="Ể"/>
+			<alt value="Ề"/>
+			<alt value="Ễ"/>
+			<alt value="Ệ"/>
+			<alt value="É"/>
+			<alt value="Ẻ"/>
+			<alt value="È"/>
+			<alt value="Ẽ"/>
+			<alt value="Ẹ"/>
+		</character>
+		<character value="R"/>
+		<character value="T"/>
+		<character value="Y">
+			<alt value="Ỵ"/>
+			<alt value="Ý"/>
+			<alt value="Ỹ"/>
+			<alt value="Ỷ"/>
+			<alt value="Ỳ"/>
+		</character>
+		<character value="U">
+			<alt value="Ứ"/>
+			<alt value="Ử"/>
+			<alt value="Ư"/>
+			<alt value="Ừ"/>
+			<alt value="Ữ"/>
+			<alt value="Ự"/>	
+			<alt value="Ú"/>
+			<alt value="Ủ"/>
+			<alt value="Ù"/>
+			<alt value="Ũ"/>
+			<alt value="Ụ"/>
+		</character>
+		<character value="I">
+			<alt value="Ị"/>
+			<alt value="Í"/>
+			<alt value="Ĩ"/>
+			<alt value="Ỉ"/>	
+			<alt value="Ì"/>
+		</character>
+		<character value="O">
+			<alt value="Ợ"/>
+			<alt value="Ớ"/>
+			<alt value="Ỡ"/>
+			<alt value="Ở"/>
+			<alt value="Ờ"/>
+			<alt value="Ơ"/>
+			<alt value="Ố"/>
+			<alt value="Ỗ"/>
+			<alt value="Ộ"/>
+			<alt value="Ổ"/>
+			<alt value="Ồ"/>
+			<alt value="Ô"/>
+			<alt value="Ọ"/>
+			<alt value="Ó"/>
+			<alt value="Õ"/>
+			<alt value="Ỏ"/>
+			<alt value="Ò"/>
+		</character>
+		<character value="P"/>
+	</row>
+	<row>
+		<character value="A">
+			<alt value="Ẵ"/>
+			<alt value="Ắ"/>
+			<alt value="Ặ"/>
+			<alt value="Â"/>
+			<alt value="Ầ"/>
+			<alt value="Ẩ"/>	
+			<alt value="Ẫ"/>
+			<alt value="Ấ"/>
+			<alt value="Ậ"/>
+			<alt value="À"/>
+			<alt value="Ả"/>
+			<alt value="Ã"/>
+			<alt value="Á"/>
+			<alt value="Ạ"/>
+			<alt value="Ă"/>
+			<alt value="Ằ"/>
+			<alt value="Ẳ"/>
+		</character>
+		<character value="S"/>
+		<character value="D">
+			<alt value="Đ"/>
+		</character>
+		<character value="F"/>
+		<character value="G"/>
+		<character value="H"/>
+		<character value="J"/>
+		<character value="K"/>
+		<character value="L"/>
+	</row>
+	<row>
+		<character value="Z"/>
+		<character value="X"/>
+		<character value="C"/>
+		<character value="V"/>
+		<character value="B"/>
+		<character value="N"/>
+		<character value="M"/>
+	</row>
+</language>
+</root>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
